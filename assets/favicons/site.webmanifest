@@ -1,0 +1,14 @@
+{
+  "name": "SEnablers",
+  "short_name": "SEnablers",
+  "icons": [
+    {
+      "src": "/assets/favicons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#DC2626",
+  "background_color": "#FFFFFF",
+  "display": "standalone"
+}

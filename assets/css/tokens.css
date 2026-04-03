@@ -1,0 +1,122 @@
+/* ============================================================
+   SEnablers — Design Tokens
+   Generated: 2026-04-03
+   ============================================================ */
+
+:root {
+  /* ---- Backgrounds ---- */
+  --se-bg-primary: #FFFFFF;
+  --se-bg-surface: #F9FAFB;
+  --se-bg-tinted: #FEF2F2;
+  --se-bg-dark: #111111;
+  --se-bg-dark-surface: #1A1A1A;
+
+  /* ---- Accent: True Red ---- */
+  --se-accent: #DC2626;
+  --se-accent-hover: #B91C1C;
+  --se-accent-active: #991B1B;
+  --se-accent-subtle: #FEF2F2;
+  --se-accent-rgb: 220, 38, 38;           /* for rgba() usage */
+
+  /* ---- Text ---- */
+  --se-text-primary: #111827;
+  --se-text-secondary: #6B7280;
+  --se-text-tertiary: #9CA3AF;
+  --se-text-inverse: #F0F0F0;
+  --se-text-on-accent: #FFFFFF;
+
+  /* ---- Borders & Dividers ---- */
+  --se-border: #E5E7EB;
+  --se-border-subtle: #F3F4F6;
+  --se-border-strong: #D1D5DB;
+
+  /* ---- Typography ---- */
+  --se-font-heading: 'Instrument Sans', system-ui, -apple-system, sans-serif;
+  --se-font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --se-font-mono: 'Source Code Pro', 'Menlo', 'Monaco', monospace;
+
+  /* ---- Font Sizes (fluid) ---- */
+  --se-text-xs: clamp(0.6875rem, 0.65rem + 0.15vw, 0.75rem);    /* 11-12px */
+  --se-text-sm: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);   /* 13-14px */
+  --se-text-base: clamp(0.9375rem, 0.9rem + 0.15vw, 1rem);      /* 15-16px */
+  --se-text-lg: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);      /* 18-20px */
+  --se-text-xl: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);       /* 22-28px */
+  --se-text-2xl: clamp(1.75rem, 1.5rem + 1vw, 2.5rem);          /* 28-40px */
+  --se-text-3xl: clamp(2.25rem, 1.8rem + 1.5vw, 3.5rem);        /* 36-56px */
+
+  /* ---- Font Weights ---- */
+  --se-weight-normal: 400;
+  --se-weight-medium: 500;
+  --se-weight-semibold: 600;
+  --se-weight-bold: 700;
+  --se-weight-extrabold: 800;
+
+  /* ---- Spacing Scale ---- */
+  --se-space-1: 0.25rem;   /* 4px */
+  --se-space-2: 0.5rem;    /* 8px */
+  --se-space-3: 0.75rem;   /* 12px */
+  --se-space-4: 1rem;      /* 16px */
+  --se-space-6: 1.5rem;    /* 24px */
+  --se-space-8: 2rem;      /* 32px */
+  --se-space-12: 3rem;     /* 48px */
+  --se-space-16: 4rem;     /* 64px */
+  --se-space-24: 6rem;     /* 96px */
+
+  /* ---- Radius ---- */
+  --se-radius-sm: 4px;
+  --se-radius-md: 8px;
+  --se-radius-lg: 12px;
+  --se-radius-xl: 16px;
+  --se-radius-full: 9999px;
+
+  /* ---- Shadows ---- */
+  --se-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --se-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --se-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --se-shadow-accent: 0 4px 16px rgba(var(--se-accent-rgb), 0.25);
+
+  /* ---- Transitions ---- */
+  --se-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --se-duration-fast: 150ms;
+  --se-duration-normal: 250ms;
+  --se-duration-slow: 400ms;
+
+  /* ---- Z-Index ---- */
+  --se-z-dropdown: 100;
+  --se-z-sticky: 200;
+  --se-z-modal: 300;
+  --se-z-toast: 400;
+}
+
+/* ---- Dark Mode Override ---- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --se-bg-primary: #111111;
+    --se-bg-surface: #1A1A1A;
+    --se-bg-tinted: #2A1410;
+    --se-text-primary: #F0F0F0;
+    --se-text-secondary: #9CA3AF;
+    --se-text-tertiary: #6B7280;
+    --se-text-inverse: #111827;
+    --se-border: #2A2A2A;
+    --se-border-subtle: #222222;
+    --se-border-strong: #3A3A3A;
+    --se-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --se-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --se-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* ---- Utility: force dark on specific containers ---- */
+[data-theme="dark"] {
+  --se-bg-primary: #111111;
+  --se-bg-surface: #1A1A1A;
+  --se-bg-tinted: #2A1410;
+  --se-text-primary: #F0F0F0;
+  --se-text-secondary: #9CA3AF;
+  --se-text-tertiary: #6B7280;
+  --se-text-inverse: #111827;
+  --se-border: #2A2A2A;
+  --se-border-subtle: #222222;
+  --se-border-strong: #3A3A3A;
+}
