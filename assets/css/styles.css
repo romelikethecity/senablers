@@ -774,6 +774,224 @@ body.page-home .main-content {
 }
 
 
+/* ---- Tool Review Pages ---- */
+.tool-mention-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--se-space-2);
+    background: var(--se-bg-tinted);
+    border: 1px solid var(--se-border);
+    border-radius: var(--se-radius-xl);
+    padding: var(--se-space-2) var(--se-space-4);
+    margin-top: var(--se-space-3);
+}
+
+.mention-count {
+    font-family: var(--se-font-heading);
+    font-weight: var(--se-weight-bold);
+    font-size: var(--se-text-lg);
+    color: var(--se-accent);
+}
+
+.mention-label {
+    font-size: var(--se-text-sm);
+    color: var(--se-text-secondary);
+}
+
+.tool-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--se-space-2);
+    margin-top: var(--se-space-2);
+}
+
+.rating-value {
+    font-family: var(--se-font-heading);
+    font-weight: var(--se-weight-bold);
+    font-size: var(--se-text-lg);
+    color: var(--se-accent);
+}
+
+.rating-count {
+    font-size: var(--se-text-sm);
+    color: var(--se-text-secondary);
+}
+
+.tool-overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--se-space-3);
+    margin: var(--se-space-4) 0 var(--se-space-8);
+}
+
+.tool-detail {
+    padding: var(--se-space-3) var(--se-space-4);
+    background: var(--se-bg-surface);
+    border: 1px solid var(--se-border-subtle);
+    border-radius: var(--se-radius-md);
+    font-size: var(--se-text-sm);
+    line-height: 1.5;
+}
+
+.tool-detail strong {
+    color: var(--se-text-primary);
+}
+
+.pros-list li::marker {
+    color: #22c55e;
+}
+
+.cons-list li::marker {
+    color: #ef4444;
+}
+
+/* ---- Roundup Pages ---- */
+.roundup-entry {
+    padding: var(--se-space-6) 0;
+    border-bottom: 1px solid var(--se-border-subtle);
+}
+
+.roundup-entry:last-child {
+    border-bottom: none;
+}
+
+.roundup-entry h3 {
+    margin-bottom: var(--se-space-2);
+}
+
+.roundup-meta {
+    font-size: var(--se-text-sm);
+    color: var(--se-text-secondary);
+    margin-bottom: var(--se-space-3);
+}
+
+/* ---- Comparison Table ---- */
+.comparison-table-wrap {
+    overflow-x: auto;
+    margin: var(--se-space-4) 0 var(--se-space-8);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--se-text-sm);
+}
+
+.data-table th,
+.data-table td {
+    padding: var(--se-space-3) var(--se-space-4);
+    text-align: left;
+    border-bottom: 1px solid var(--se-border-subtle);
+}
+
+.data-table th {
+    background: var(--se-bg-surface);
+    font-weight: var(--se-weight-semibold);
+    color: var(--se-text-primary);
+}
+
+.data-table td {
+    color: var(--se-text-secondary);
+}
+
+.data-table tr:hover td {
+    background: var(--se-bg-surface);
+}
+
+/* ---- Calculator ---- */
+.calculator-container {
+    max-width: 600px;
+    margin: var(--se-space-8) auto;
+}
+
+.calculator-gate {
+    text-align: center;
+    padding: var(--se-space-8);
+    background: var(--se-bg-surface);
+    border: 1px solid var(--se-border);
+    border-radius: var(--se-radius-lg);
+}
+
+.calculator-gate-form {
+    display: flex;
+    gap: var(--se-space-2);
+    max-width: 460px;
+    margin: var(--se-space-4) auto var(--se-space-3);
+}
+
+.calculator-gate-form input {
+    flex: 1;
+    padding: var(--se-space-3) var(--se-space-4);
+    border-radius: var(--se-radius-md);
+    border: 1px solid var(--se-border);
+    font-family: var(--se-font-body);
+    font-size: var(--se-text-base);
+    background: var(--se-bg-primary);
+}
+
+.calculator-gate-form input:focus {
+    outline: none;
+    border-color: var(--se-accent-hover);
+}
+
+.calculator-form {
+    padding: var(--se-space-6);
+    background: var(--se-bg-surface);
+    border: 1px solid var(--se-border);
+    border-radius: var(--se-radius-lg);
+}
+
+.calc-field {
+    margin-bottom: var(--se-space-4);
+}
+
+.calc-field label {
+    display: block;
+    font-weight: var(--se-weight-semibold);
+    font-size: var(--se-text-sm);
+    margin-bottom: var(--se-space-2);
+    color: var(--se-text-primary);
+}
+
+.calc-field select {
+    width: 100%;
+    padding: var(--se-space-3) var(--se-space-4);
+    border-radius: var(--se-radius-md);
+    border: 1px solid var(--se-border);
+    font-family: var(--se-font-body);
+    font-size: var(--se-text-base);
+    background: var(--se-bg-primary);
+    color: var(--se-text-primary);
+}
+
+.calc-result {
+    margin-top: var(--se-space-6);
+    padding: var(--se-space-6);
+    background: var(--se-bg-tinted);
+    border-radius: var(--se-radius-lg);
+    text-align: center;
+}
+
+.calc-result-label {
+    font-size: var(--se-text-sm);
+    color: var(--se-text-secondary);
+    margin-bottom: var(--se-space-2);
+}
+
+.calc-result-range {
+    font-family: var(--se-font-heading);
+    font-size: var(--se-text-2xl);
+    font-weight: var(--se-weight-bold);
+    color: var(--se-accent);
+}
+
+.calc-result-note {
+    font-size: var(--se-text-sm);
+    color: var(--se-text-secondary);
+    margin-top: var(--se-space-2);
+}
+
+
 /* ============================================================
    Responsive Breakpoints
    ============================================================ */
@@ -867,6 +1085,14 @@ body.page-home .main-content {
     .data-table {
         display: block;
         overflow-x: auto;
+    }
+
+    .tool-overview-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .calculator-gate-form {
+        flex-direction: column;
     }
 
     /* Salary page responsive */

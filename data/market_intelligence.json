@@ -1,5 +1,111 @@
 {
-  "source": "placeholder",
-  "note": "Populate with market intelligence data for newsletter",
-  "metrics": {}
+  "date": "April 04, 2026",
+  "total_jobs": 219,
+  "tools": {
+    "Rag": 125,
+    "Rust": 76,
+    "Salesforce": 63,
+    "Aws": 53,
+    "Highspot": 22,
+    "Hubspot": 16,
+    "Gong": 14,
+    "Power Bi": 9,
+    "Claude": 7,
+    "Seismic": 7,
+    "Salesloft": 6,
+    "Azure": 4,
+    "Marketo": 3,
+    "Instantly": 3,
+    "Bedrock": 3,
+    "Tableau": 3,
+    "Mindtickle": 3,
+    "Mindtickle Training": 3,
+    "Catalyst": 3,
+    "Gemini": 2,
+    "Python": 2,
+    "Cognigy": 2,
+    "Chorus": 2,
+    "Leandata": 2,
+    "Linkedin Sales Navigator": 2,
+    "Allego": 2,
+    "Allego Training": 2,
+    "Workramp": 2,
+    "Workramp Training": 2,
+    "G2": 2,
+    "Demandtools": 1,
+    "Zapier": 1,
+    "Sugarcrm": 1,
+    "Clari": 1,
+    "Churnzero": 1,
+    "Openai": 1,
+    "Koala": 1,
+    "Outreach Io": 1,
+    "Zoominfo": 1,
+    "Showpad": 1,
+    "Brainshark": 1,
+    "Brainshark Training": 1,
+    "Pandadoc": 1,
+    "Lessonly": 1,
+    "Lessonly Training": 1,
+    "Hubspot Marketing": 1,
+    "Calendly": 1,
+    "Gong Engage": 1,
+    "6Sense": 1,
+    "Warmly": 1
+  },
+  "methodology": {
+    "Meddic": 14,
+    "Challenger": 12,
+    "Value Selling": 6,
+    "Solution Selling": 4,
+    "Sandler": 3,
+    "Bant": 1,
+    "Gap Selling": 1
+  },
+  "motion": {
+    "Channel": 49,
+    "Direct": 10,
+    "Inside": 10,
+    "Outbound": 1,
+    "Abm": 1
+  },
+  "geo_focus": {
+    "Global": 102,
+    "North America": 62,
+    "Apac": 10,
+    "Emea": 9,
+    "Latam": 6
+  },
+  "team_structure": {
+    "Build Team": 131,
+    "Reports Cro": 33,
+    "First Hire": 8,
+    "Reports Vp": 4
+  },
+  "hiring_signals": {
+    "Growth Hire": 148,
+    "Turnaround": 73,
+    "Immediate": 15
+  },
+  "comp_signals": {
+    "Equity": 174,
+    "Ote Mentioned": 11,
+    "Uncapped": 2
+  },
+  "deal_size": {
+    "Enterprise Deal": 22,
+    "Seven Figure": 6,
+    "Transactional": 4,
+    "Mid Deal": 1
+  },
+  "sales_cycle": {
+    "Long": 14,
+    "Short": 1
+  },
+  "segment": {
+    "Enterprise": 55,
+    "Smb": 14,
+    "Fortune 500": 11,
+    "Mid Market": 1
+  }
 }

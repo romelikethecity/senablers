@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-04-04T16:06:38.911229",
+  "total_records": 219,
+  "records_with_salary": 146,
+  "disclosure_rate": 66.7,
+  "salary_stats": {
+    "min": 47800,
+    "max": 375000,
+    "median": 110000,
+    "avg": 127742,
+    "count_with_salary": 146
+  },
+  "by_seniority": {
+    "Senior": {
+      "count": 39,
+      "min_base_avg": 171494,
+      "max_base_avg": 244242,
+      "median": 155000
+    },
+    "Director": {
+      "count": 23,
+      "min_base_avg": 148798,
+      "max_base_avg": 211119,
+      "median": 154500
+    },
+    "Entry": {
+      "count": 17,
+      "min_base_avg": 82703,
+      "max_base_avg": 117957,
+      "median": 80000
+    },
+    "Mid": {
+      "count": 41,
+      "min_base_avg": 105405,
+      "max_base_avg": 148856,
+      "median": 100000
+    },
+    "Unknown": {
+      "count": 21,
+      "min_base_avg": 101144,
+      "max_base_avg": 143654,
+      "median": 100603
+    }
+  },
+  "by_metro": {
+    "Unknown": {
+      "count": 80,
+      "min_base_avg": 111768,
+      "max_base_avg": 161733,
+      "median": 100603
+    },
+    "New York": {
+      "count": 28,
+      "min_base_avg": 133039,
+      "max_base_avg": 183827,
+      "median": 120000
+    },
+    "Los Angeles": {
+      "count": 14,
+      "min_base_avg": 142750,
+      "max_base_avg": 213552,
+      "median": 105261
+    },
+    "Seattle": {
+      "count": 7,
+      "min_base_avg": 160771,
+      "max_base_avg": 234566,
+      "median": 164000
+    },
+    "Boston": {
+      "count": 4,
+      "min_base_avg": 190675,
+      "max_base_avg": 260500,
+      "median": 193700
+    },
+    "San Francisco": {
+      "count": 5,
+      "min_base_avg": 174420,
+      "max_base_avg": 251080,
+      "median": 171200
+    }
+  },
+  "by_remote": {
+    "remote": {
+      "count": 21,
+      "min_base_avg": 109709,
+      "max_base_avg": 155414,
+      "median": 105700
+    },
+    "onsite": {
+      "count": 125,
+      "min_base_avg": 130772,
+      "max_base_avg": 187045,
+      "median": 110000
+    }
+  },
+  "top_paying_roles": [
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Senior Director, Sales Effectiveness & Rewards",
+      "company": "WTW",
+      "salary_min": 250000.0,
+      "salary_max": 375000.0,
+      "seniority": "Senior"
+    }
+  ]
+}
