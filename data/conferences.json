@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Seismic Shift",
+    "organizer": "Seismic",
+    "typical_attendees": 2000,
+    "location": "San Diego, CA",
+    "website_url": "https://seismic.com/shift/",
+    "relevance_tags": ["sales enablement", "content management", "buyer engagement", "AI"],
+    "description": "Seismic's annual conference for enablement professionals. Covers content management, buyer engagement, analytics, and AI-powered enablement strategies."
+  },
+  {
+    "name": "Highspot Spark",
+    "organizer": "Highspot",
+    "typical_attendees": 1500,
+    "location": "Seattle, WA",
+    "website_url": "https://www.highspot.com/spark/",
+    "relevance_tags": ["sales enablement", "content", "training", "analytics"],
+    "description": "Highspot's user conference focused on enablement excellence. Sessions on content strategy, sales training, rep productivity, and enablement ROI measurement."
+  },
+  {
+    "name": "Sales Enablement Summit",
+    "organizer": "Sales Enablement Collective",
+    "typical_attendees": 1200,
+    "location": "Various Global Cities",
+    "website_url": "https://salesenablementcollective.com/",
+    "relevance_tags": ["sales enablement", "strategy", "leadership", "best practices"],
+    "description": "Global summit series for sales enablement professionals. Covers enablement strategy, organizational design, metrics, and career development for practitioners."
+  },
+  {
+    "name": "ATD Conference",
+    "organizer": "Association for Talent Development",
+    "typical_attendees": 10000,
+    "location": "Various US Cities",
+    "website_url": "https://www.td.org/atd-conference",
+    "relevance_tags": ["training", "learning", "talent development", "instructional design"],
+    "description": "The largest learning and development conference globally. Relevant for enablement professionals focused on training design, adult learning, and capability building."
+  },
+  {
+    "name": "TSIA World",
+    "organizer": "TSIA (Technology & Services Industry Association)",
+    "typical_attendees": 2000,
+    "location": "Las Vegas, NV",
+    "website_url": "https://www.tsia.com/conference",
+    "relevance_tags": ["enablement", "customer success", "professional services", "subscription"],
+    "description": "Covers post-sale enablement, customer education, and service delivery. Research-backed frameworks for building enablement programs that scale across the customer lifecycle."
+  },
+  {
+    "name": "Revenue Enablement Society Summit",
+    "organizer": "Revenue Enablement Society",
+    "typical_attendees": 500,
+    "location": "Various US Cities",
+    "website_url": "https://revenueenablement.com/",
+    "relevance_tags": ["revenue enablement", "strategy", "cross-functional", "metrics"],
+    "description": "Community-led summit for revenue enablement practitioners. Covers the shift from sales enablement to revenue enablement, cross-functional alignment, and impact measurement."
+  },
+  {
+    "name": "Gartner CSO & Sales Leader Conference",
+    "organizer": "Gartner",
+    "typical_attendees": 3000,
+    "location": "Las Vegas, NV",
+    "website_url": "https://www.gartner.com/en/conferences/na/sales-us",
+    "relevance_tags": ["sales strategy", "enablement", "AI", "revenue growth"],
+    "description": "Gartner's premier sales leadership event. Covers sales enablement trends, AI in selling, buyer engagement, and research-backed enablement frameworks."
+  },
+  {
+    "name": "SalesHood Summit",
+    "organizer": "SalesHood",
+    "typical_attendees": 400,
+    "location": "San Francisco, CA",
+    "website_url": "https://saleshood.com/",
+    "relevance_tags": ["sales enablement", "coaching", "onboarding", "readiness"],
+    "description": "Focused on sales enablement and coaching. Covers onboarding programs, continuous learning, coaching frameworks, and enablement technology adoption."
+  },
+  {
+    "name": "Dreamforce (Enablement Track)",
+    "organizer": "Salesforce",
+    "typical_attendees": 40000,
+    "location": "San Francisco, CA",
+    "website_url": "https://www.salesforce.com/dreamforce/",
+    "relevance_tags": ["Salesforce", "enablement", "CRM", "sales productivity"],
+    "description": "Salesforce's flagship conference with dedicated enablement sessions. Covers Salesforce-native enablement tools, CRM adoption, and sales productivity optimization."
+  },
+  {
+    "name": "SaaStr Annual",
+    "organizer": "SaaStr",
+    "typical_attendees": 12500,
+    "location": "San Francisco, CA",
+    "website_url": "https://www.saastr.com/annual/",
+    "relevance_tags": ["SaaS", "sales", "enablement", "go-to-market"],
+    "description": "The largest SaaS conference with growing enablement content. Covers SaaS sales motions, rep productivity, onboarding at scale, and enablement in high-growth environments."
+  },
+  {
+    "name": "Pavilion CRO Summit",
+    "organizer": "Pavilion",
+    "typical_attendees": 1000,
+    "location": "Various US Cities",
+    "website_url": "https://www.joinpavillion.com/",
+    "relevance_tags": ["CRO", "revenue", "enablement", "leadership"],
+    "description": "Pavilion's revenue leadership summit. Covers the enablement function from the CRO perspective, including team structure, budget allocation, and strategic alignment."
+  },
+  {
+    "name": "SEC Conference",
+    "organizer": "Sales Enablement Collective",
+    "typical_attendees": 800,
+    "location": "Austin, TX",
+    "website_url": "https://salesenablementcollective.com/",
+    "relevance_tags": ["sales enablement", "community", "networking", "tactics"],
+    "description": "Sales Enablement Collective's practitioner conference. Focused on tactical enablement execution, peer networking, and sharing what works in the field."
+  }
+]

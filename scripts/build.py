@@ -17,6 +17,9 @@ from templates import (get_page_wrapper, write_page, get_homepage_schema,
                        get_breadcrumb_schema, get_faq_schema,
                        get_software_application_schema, get_article_schema,
                        breadcrumb_html, newsletter_cta_html, faq_html, ALL_PAGES)
+from build_companies import build_all_company_pages
+from report_pages import build_all_report_pages
+from conferences_pages import build_conferences_index
 
 # OG image generation state
 OG_PAGES = []
@@ -3823,6 +3826,13 @@ def main():
 
     print("\n  Building comparisons...")
     build_comparisons_index()
+
+    build_all_company_pages(PROJECT_DIR)
+
+    build_all_report_pages(PROJECT_DIR)
+
+    print("\n  Building conference pages...")
+    build_conferences_index()
 
     print("\n  Building meta files...")
     build_sitemap()
