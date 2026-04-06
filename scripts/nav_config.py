@@ -14,7 +14,7 @@ CTA_LABEL = "Get the Weekly Brief"
 
 SIGNUP_WORKER_URL = "https://se-newsletter-signup.rome-workers.workers.dev/subscribe"
 
-GA_MEASUREMENT_ID = ""
+GA_MEASUREMENT_ID = "G-917V544CHC"
 GOOGLE_SITE_VERIFICATION = ""  # Set to verification filename (e.g., "google1234abcd.html") to generate file
 GOOGLE_SITE_VERIFICATION_META = ""  # Set to verification code for meta tag method (alternative to HTML file)
 
