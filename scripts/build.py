@@ -528,6 +528,13 @@ TOOL_COMPARISONS = [
         "description": "Two enterprise content management platforms compared. Content automation vs vertical specialization.",
         "summary": "Seismic and Showpad both serve enterprise content management but with different strengths. Seismic leads in content automation (LiveDocs), compliance, and scale. Showpad leads in vertical depth (manufacturing, life sciences) and interactive content. Seismic has the Lessonly training integration. Showpad has stronger GDPR compliance. Seismic is the default for Fortune 500 and regulated industries. Showpad wins in manufacturing field sales. Both are premium-priced enterprise tools.",
     },
+    {
+        "slug": "allego-vs-mindtickle",
+        "tool_a": "allego", "tool_b": "mindtickle",
+        "title": "Allego vs Mindtickle",
+        "description": "Video-first learning platform vs enterprise readiness suite. Two approaches to sales training and coaching compared.",
+        "summary": "Allego and Mindtickle both focus on sales readiness but from different angles. Allego built its platform around video-based practice and peer learning, making it strong for distributed teams that need asynchronous coaching. Mindtickle takes a broader approach with structured learning paths, AI coaching, and conversation intelligence built in. Mindtickle has 6 job mentions in our data vs Allego's 3, reflecting its stronger enterprise footprint. Choose Allego for video-centric coaching and peer learning. Choose Mindtickle for a full readiness suite with certification and analytics at scale.",
+    },
 ]
 
 # Salary comparison data — enablement vs adjacent roles
@@ -2031,6 +2038,237 @@ def build_careers_index():
     print(f"  Built: careers/index.html")
 
 
+def build_careers_break_into_enablement():
+    """Generate the 'How to Break Into Sales Enablement' guide."""
+    title = "How to Break Into Sales Enablement in 2026"
+    description = (
+        "A practical guide to landing your first sales enablement role."
+        " Skills, backgrounds, interview tips, and career paths that actually work."
+    )
+
+    crumbs = [("Home", "/"), ("Careers", "/careers/"), ("Break Into Enablement", None)]
+
+    body = f'''<div class="salary-header">
+    <div class="salary-header-inner">
+        {breadcrumb_html(crumbs)}
+        <div class="salary-eyebrow">CAREER GUIDE</div>
+        <h1>How to Break Into Sales Enablement</h1>
+        <p>The skills, backgrounds, and moves that get you hired. No MBA required, no gatekeepers.</p>
+    </div>
+</div>
+<div class="salary-content">
+    <h2>What Sales Enablement Actually Is</h2>
+    <p>Sales enablement sits at the intersection of sales, marketing, and learning. The function exists to make revenue teams more effective by giving them the content, training, coaching, and tools they need to close deals. It is a strategic role, not a support role.</p>
+    <p>Enablement professionals do not carry a quota. They build the systems that help people who do. That means onboarding programs that cut ramp time, content libraries that reps actually use, coaching frameworks that improve call quality, and technology stacks that reduce friction in the sales process.</p>
+    <p>The function has grown significantly since 2020. LinkedIn data shows enablement job postings increased 55% between 2021 and 2025. Companies that ignored the function during the 2022-2023 downturn are now backfilling those roles as growth targets ramp back up.</p>
+
+    <h2>Backgrounds That Translate Well</h2>
+    <p>Most people in enablement did not start there. The field draws from several adjacent disciplines, and hiring managers value diverse experience.</p>
+    <ul>
+        <li><strong>Sales (AE or SDR):</strong> Former reps understand the day-to-day reality of selling. They know what makes content useful vs. shelf-ware, and they have credibility with the teams they support. This is the most common entry point.</li>
+        <li><strong>Sales Training or L&D:</strong> If you have built training programs, facilitated workshops, or managed an LMS, you already have core enablement skills. The transition is about applying those skills to a revenue context.</li>
+        <li><strong>Marketing (Content or Product Marketing):</strong> Content creation, messaging, and competitive intelligence are daily enablement tasks. Product marketers who are frustrated that reps ignore their collateral often thrive in enablement because they can fix the distribution problem from the inside.</li>
+        <li><strong>Customer Success:</strong> CS professionals understand the full customer lifecycle. That perspective is valuable in enablement, especially at companies moving toward revenue enablement models that span pre-sale and post-sale.</li>
+        <li><strong>Teaching or Education:</strong> Instructional design, curriculum development, and classroom management translate directly to enablement. Former teachers often build the most structured and effective onboarding programs.</li>
+    </ul>
+
+    <h2>Core Skills You Need</h2>
+    <p>Enablement is not a single skill. It is a combination of capabilities that vary by company size and maturity. Here are the skills that appear most frequently in job postings and interviews.</p>
+
+    <h3>Communication and Facilitation</h3>
+    <p>You will run training sessions, present to leadership, and write content that reps use in front of buyers. Clear, concise communication is non-negotiable. If you cannot hold a room of 30 sales reps through a 45-minute session, the rest of your skills do not matter.</p>
+
+    <h3>Content Creation</h3>
+    <p>Enablement teams produce battle cards, playbooks, one-pagers, email templates, call scripts, and presentation decks. You do not need to be a designer, but you need to create materials that are clear, accurate, and actually used. The best enablement content is concise, buyer-focused, and easy to find.</p>
+
+    <h3>Project Management</h3>
+    <p>Enablement initiatives are cross-functional by nature. A single onboarding program involves sales leadership, product, marketing, HR, and IT. You need to manage timelines, dependencies, and stakeholders without formal authority over any of them.</p>
+
+    <h3>Data Analysis</h3>
+    <p>Modern enablement runs on metrics. You should be comfortable pulling data from CRM systems, analyzing win rates, tracking content usage, and measuring the impact of training programs. You do not need to be a data scientist, but you need to be data-literate.</p>
+
+    <h3>Sales Methodology Knowledge</h3>
+    <p>Familiarity with MEDDIC, SPIN, Challenger, Sandler, or other sales methodologies is important. You do not need to be certified in all of them, but you need to understand how structured selling frameworks work so you can reinforce them through enablement programs.</p>
+
+    <h3>Technology Fluency</h3>
+    <p>Enablement teams manage tools like Highspot, Seismic, Gong, Mindtickle, and various LMS platforms. You do not need deep expertise in every tool, but you should understand the enablement tech landscape and be able to administer and optimize at least one major platform.</p>
+
+    <h2>How to Get Your First Role</h2>
+
+    <h3>1. Start Where You Are</h3>
+    <p>The fastest path into enablement is often inside your current company. Volunteer to run onboarding for new hires. Build a battle card your team actually uses. Create a training session on a new product feature. These projects demonstrate enablement skills without requiring a title change.</p>
+
+    <h3>2. Build a Portfolio</h3>
+    <p>When you apply for enablement roles, show your work. A one-page onboarding plan, a sample battle card, or a recording of a training session you facilitated carries more weight than a generic resume. Hiring managers want evidence that you can do the work, not just talk about it.</p>
+
+    <h3>3. Target the Right Companies</h3>
+    <p>Your first enablement role is easier to land at a company with 100-500 employees that is building its enablement function for the first time. These companies need generalists who can wear multiple hats. Enterprise companies with mature enablement teams hire specialists and usually require prior enablement experience.</p>
+
+    <h3>4. Network in the Enablement Community</h3>
+    <p>Sales enablement has an active community on LinkedIn, in Slack groups like the Sales Enablement Collective and WizOps, and at conferences like the Sales Enablement Society annual event. Engage genuinely. Share what you are learning. Ask questions. Many enablement roles are filled through referrals before they hit job boards.</p>
+
+    <h3>5. Nail the Interview</h3>
+    <p>Enablement interviews typically include a presentation or teach-back exercise. You may be asked to design an onboarding plan, create a battle card, or facilitate a mock training session. Prepare for these by practicing with peers and getting feedback.</p>
+    <p>Common interview questions include: How would you measure the impact of an enablement program? How do you handle a sales leader who does not see value in enablement? Walk me through how you would onboard a new rep in their first 90 days.</p>
+
+    <h2>What to Expect in Your First Year</h2>
+    <p>Your first year in enablement will be a mix of quick wins and long-term projects. Expect to spend significant time listening: sitting in on sales calls, interviewing top performers, and understanding the existing sales process before you try to change it.</p>
+    <p>The biggest mistake new enablement professionals make is launching too many initiatives at once. Pick one or two high-impact projects, deliver measurable results, and build credibility before expanding your scope.</p>
+    <p>Common first-year projects include: revamping new hire onboarding, building a content management system, creating competitive battle cards, and establishing a regular training cadence.</p>
+
+    <h2>Salary Expectations</h2>
+    <p>Entry-level enablement roles (Enablement Coordinator, Enablement Specialist) typically pay between $60K and $85K base, depending on location and company size. Mid-level roles (Enablement Manager, Senior Specialist) range from $90K to $140K. See our <a href="/salary/">full salary data</a> for detailed breakdowns by seniority, location, and company type.</p>
+
+    <h2>Career Trajectory</h2>
+    <p>Enablement career paths typically follow this progression:</p>
+    <ul>
+        <li><strong>Year 0-2:</strong> Enablement Coordinator or Specialist. Executing programs, managing content, and supporting training.</li>
+        <li><strong>Year 2-5:</strong> Enablement Manager. Owning a portfolio of programs, managing vendors, and presenting to leadership.</li>
+        <li><strong>Year 5-8:</strong> Senior Manager or Director. Setting strategy, managing a team, and owning enablement metrics at the executive level.</li>
+        <li><strong>Year 8+:</strong> VP of Enablement or Chief Learning Officer. Cross-functional leadership, budget ownership, and board-level reporting.</li>
+    </ul>
+    <p>The timeline is not fixed. People with strong sales or L&D backgrounds often move faster. The key accelerator is measurable impact: if you can show that your programs moved win rates, shortened ramp time, or increased content adoption, promotions follow.</p>
+</div>
+'''
+    body += newsletter_cta_html("Career guides delivered weekly.")
+
+    faq_pairs = [
+        ("Do I need a specific degree to work in sales enablement?",
+         "No. Sales enablement values skills and experience over credentials. Backgrounds in sales, marketing, training, education, and customer success all translate well. Some universities offer enablement certifications, but they are not required by most employers."),
+        ("What is the difference between sales enablement and sales operations?",
+         "Sales enablement focuses on making reps more effective through content, training, and coaching. Sales operations focuses on the systems, processes, and data that support the sales organization, including CRM administration, territory planning, and forecasting. Some companies combine both functions, but they are distinct disciplines."),
+        ("How long does it take to break into enablement?",
+         "Most people transition within 3 to 12 months of actively pursuing the switch. The timeline depends on your starting point, the strength of your portfolio, and whether you can demonstrate enablement skills in your current role before applying externally."),
+        ("Is sales enablement a good career path?",
+         "Yes. Enablement headcount has grown consistently since 2019, even during economic downturns. The function is increasingly recognized as strategic, and compensation reflects that. Director-level enablement roles regularly exceed $180K total compensation. The career path extends to VP and CXO levels at larger organizations."),
+    ]
+    body += faq_html(faq_pairs)
+
+    extra_head = get_breadcrumb_schema(crumbs) + get_faq_schema(faq_pairs)
+    page = get_page_wrapper(title=title, description=description,
+                            canonical_path="/careers/how-to-break-into-enablement/",
+                            body_content=body, active_path="/careers/",
+                            extra_head=extra_head)
+    write_page("careers/how-to-break-into-enablement/index.html", page)
+    print(f"  Built: careers/how-to-break-into-enablement/index.html")
+
+
+def build_careers_job_growth():
+    """Generate the 'Sales Enablement Job Market Growth' page."""
+    title = "Sales Enablement Job Market Growth in 2026"
+    description = (
+        "Data on sales enablement hiring trends, job growth rates, and where new roles are opening fastest."
+        " Updated for 2026."
+    )
+
+    crumbs = [("Home", "/"), ("Careers", "/careers/"), ("Job Market Growth", None)]
+
+    body = f'''<div class="salary-header">
+    <div class="salary-header-inner">
+        {breadcrumb_html(crumbs)}
+        <div class="salary-eyebrow">MARKET DATA</div>
+        <h1>Sales Enablement Job Market Growth</h1>
+        <p>Where the roles are, how fast the function is growing, and what it means for your career.</p>
+    </div>
+</div>
+<div class="salary-content">
+    <h2>The Growth Trajectory</h2>
+    <p>Sales enablement went from a niche function to a standard part of the revenue org in under a decade. In 2015, fewer than 20% of mid-market and enterprise companies had a dedicated enablement role. By 2025, that number exceeded 65% for companies with more than 200 employees.</p>
+    <p>The growth has not been linear. Enablement hiring surged in 2021 during the SaaS expansion, contracted modestly during the 2022-2023 correction, and rebounded in late 2024 as companies rebuilt go-to-market teams with a focus on efficiency over headcount growth.</p>
+    <p>The 2024-2026 rebound looks different from the 2021 surge. Companies are hiring fewer but more senior enablement professionals. The emphasis has shifted from activity-based enablement (how many trainings did we run?) to outcome-based enablement (did ramp time decrease? did win rates improve?).</p>
+
+    <h2>Job Posting Volume</h2>
+    <p>LinkedIn data shows that sales enablement job postings in the US grew approximately 55% between 2021 and 2025. Titles have also evolved. "Sales Enablement Manager" remains the most common, but "Revenue Enablement" titles grew 120% in the same period, reflecting the expansion of the function beyond sales.</p>
+    <p>The most in-demand titles in 2026:</p>
+    <ul>
+        <li><strong>Sales Enablement Manager:</strong> The workhorse role. Owns onboarding, content, and training for a sales team. The most frequently posted enablement title.</li>
+        <li><strong>Revenue Enablement Director:</strong> A senior role spanning sales, CS, and partner enablement. Growth in this title reflects the shift toward full-funnel enablement.</li>
+        <li><strong>Enablement Program Manager:</strong> Focused on program execution. Often found at enterprise companies with large enablement teams that need project management discipline.</li>
+        <li><strong>Sales Readiness Specialist:</strong> A training-focused role, often tied to platforms like Mindtickle or Allego. More common at companies with formal certification programs.</li>
+        <li><strong>GTM Enablement Lead:</strong> A newer title that reflects enablement's expansion into the broader go-to-market org, including marketing, partnerships, and product.</li>
+    </ul>
+
+    <h2>Industry Distribution</h2>
+    <p>Enablement roles are concentrated in B2B technology, but the function is expanding into other verticals. Here is where enablement hiring is happening:</p>
+    <ul>
+        <li><strong>B2B SaaS (45% of postings):</strong> Still the dominant vertical. Every SaaS company above $10M ARR now has or is hiring for enablement.</li>
+        <li><strong>Financial Services (15%):</strong> Banks, insurance companies, and fintech firms have adopted enablement to support complex, regulated sales processes.</li>
+        <li><strong>Healthcare and Life Sciences (12%):</strong> Medical device, pharma, and healthtech companies use enablement to manage product training and compliance across distributed field teams.</li>
+        <li><strong>Manufacturing and Industrial (10%):</strong> A growing segment. Manufacturers with large field sales teams are using enablement to standardize messaging and reduce ramp time.</li>
+        <li><strong>Professional Services (8%):</strong> Consulting firms, agencies, and managed services providers are building enablement to improve proposal quality and win rates.</li>
+        <li><strong>Other (10%):</strong> Includes media, education, real estate technology, and other verticals where complex B2B sales exist.</li>
+    </ul>
+
+    <h2>Geographic Trends</h2>
+    <p>Enablement roles are increasingly remote-friendly, but geographic concentration still matters for comp and availability.</p>
+    <ul>
+        <li><strong>San Francisco / Bay Area:</strong> Highest density of enablement roles. Also highest compensation, with mid-level managers earning $140K-$170K base.</li>
+        <li><strong>New York Metro:</strong> Second largest market. Strong in financial services and media/adtech enablement.</li>
+        <li><strong>Boston:</strong> Growing hub, especially for healthtech and enterprise SaaS enablement.</li>
+        <li><strong>Austin and Denver:</strong> Fast-growing markets as companies relocate or open satellite offices.</li>
+        <li><strong>Remote:</strong> Approximately 40% of enablement postings now offer full remote. Remote roles tend to pay 10-15% less than equivalent roles in SF or NYC, but often match or exceed other metro areas.</li>
+    </ul>
+
+    <h2>Compensation Trends</h2>
+    <p>Enablement compensation has kept pace with the broader market. Key trends for 2026:</p>
+    <ul>
+        <li>Entry-level roles (Coordinator, Specialist): $60K-$85K base</li>
+        <li>Mid-level roles (Manager): $100K-$150K base</li>
+        <li>Senior roles (Sr. Manager, Director): $140K-$200K base</li>
+        <li>Executive roles (VP, Head of): $180K-$280K+ base, often with equity</li>
+    </ul>
+    <p>Variable compensation is less common in enablement than in sales, but approximately 30% of roles include a bonus component, typically 10-20% of base. Director-level and above roles are more likely to include equity, especially at pre-IPO companies.</p>
+    <p>For detailed salary data, see our <a href="/salary/">Salary Index</a> and <a href="/salary/calculator/">Salary Calculator</a>.</p>
+
+    <h2>Skills in Demand</h2>
+    <p>Job posting analysis reveals which skills employers prioritize. The most frequently mentioned requirements:</p>
+    <ul>
+        <li><strong>Enablement platform experience (68% of postings):</strong> Highspot, Seismic, and Mindtickle are the most requested. Platform-agnostic experience counts, but named tool experience is a differentiator.</li>
+        <li><strong>CRM proficiency (62%):</strong> Salesforce is dominant. HubSpot is growing in mid-market. You need to be comfortable pulling reports and understanding pipeline data.</li>
+        <li><strong>Content creation (58%):</strong> Battle cards, playbooks, and training materials. The ability to produce clear, concise, buyer-facing content is a core requirement.</li>
+        <li><strong>Training facilitation (55%):</strong> Live and virtual facilitation. Companies want enablement professionals who can command a room, not just create slides.</li>
+        <li><strong>Data analysis (48%):</strong> Measuring program impact, tracking KPIs, and presenting results to leadership. SQL is a bonus but not required. Excel/Sheets proficiency is baseline.</li>
+        <li><strong>Sales methodology (42%):</strong> MEDDIC, Challenger, Sandler, SPIN. Knowledge of at least one structured methodology is expected at the manager level and above.</li>
+        <li><strong>Stakeholder management (38%):</strong> Enablement is cross-functional. The ability to influence without authority is consistently cited as a key competency.</li>
+    </ul>
+
+    <h2>What This Means for Your Career</h2>
+    <p>The enablement job market is healthy and growing, but more competitive than it was during the 2021 hiring surge. Here is how to position yourself:</p>
+    <ul>
+        <li><strong>Specialize or generalize strategically.</strong> At companies with fewer than 500 employees, generalists thrive. At enterprise companies, specialists in content, training, or technology administration are preferred. Know which type of company you are targeting.</li>
+        <li><strong>Learn the tools.</strong> Platform experience is a differentiator. If you do not have direct experience, most enablement platforms offer free certifications or sandbox environments. Invest the time.</li>
+        <li><strong>Quantify your impact.</strong> The single biggest factor in getting hired and promoted is your ability to connect enablement work to business outcomes. "I built an onboarding program" is weak. "I built an onboarding program that reduced ramp time from 6 months to 4 months, resulting in $1.2M in incremental pipeline" gets you the job.</li>
+        <li><strong>Consider revenue enablement.</strong> The expansion from sales enablement to revenue enablement creates new opportunities. If you have CS, SE, or partner experience, you can position yourself for these broader roles.</li>
+    </ul>
+
+    <h2>Looking Ahead</h2>
+    <p>AI will reshape enablement work, but it will not eliminate the function. The roles that are most at risk are administrative: content tagging, basic reporting, and simple content creation. The roles that grow stronger are strategic: program design, coaching, change management, and cross-functional alignment.</p>
+    <p>The enablement professionals who thrive in 2026 and beyond will be the ones who use AI to handle the repetitive work and focus their time on the high-judgment, high-relationship activities that tools cannot replicate.</p>
+</div>
+'''
+    body += newsletter_cta_html("Weekly market data for enablement professionals.")
+
+    faq_pairs = [
+        ("Is sales enablement growing as a career?",
+         "Yes. Enablement job postings grew approximately 55% between 2021 and 2025. The function is becoming standard at mid-market and enterprise companies, and the expansion from sales enablement to revenue enablement is creating new roles across the customer lifecycle."),
+        ("What industries hire the most enablement professionals?",
+         "B2B SaaS accounts for roughly 45% of enablement postings. Financial services, healthcare, manufacturing, and professional services make up most of the rest. Any industry with complex, consultative B2B sales is building enablement functions."),
+        ("Will AI replace sales enablement roles?",
+         "AI will change the work but not eliminate the function. Administrative tasks like content tagging and basic reporting will be automated. Strategic work like program design, coaching, and cross-functional leadership will become more valuable. Enablement professionals who adopt AI tools will outperform those who do not."),
+        ("What is the typical career path in sales enablement?",
+         "Most professionals start as a Coordinator or Specialist (years 0-2), move to Manager (years 2-5), then Director (years 5-8), and potentially VP or Head of Enablement (year 8+). The timeline varies based on company growth, measurable impact, and whether you are at a company building the function for the first time."),
+    ]
+    body += faq_html(faq_pairs)
+
+    extra_head = get_breadcrumb_schema(crumbs) + get_faq_schema(faq_pairs)
+    page = get_page_wrapper(title=title, description=description,
+                            canonical_path="/careers/job-growth/",
+                            body_content=body, active_path="/careers/",
+                            extra_head=extra_head)
+    write_page("careers/job-growth/index.html", page)
+    print(f"  Built: careers/job-growth/index.html")
+
+
 # ---------------------------------------------------------------------------
 # Glossary Term Data (45 terms)
 # ---------------------------------------------------------------------------
@@ -3464,10 +3702,10 @@ def build_comparisons_index():
 
     crumbs = [("Home", "/"), ("Comparisons", None)]
     comparisons = [
-        ("Highspot vs Seismic", "/comparisons/highspot-vs-seismic/"),
-        ("Gong vs Mindtickle", "/comparisons/gong-vs-mindtickle/"),
-        ("Showpad vs Highspot", "/comparisons/showpad-vs-highspot/"),
-        ("Allego vs Mindtickle", "/comparisons/allego-vs-mindtickle/"),
+        ("Highspot vs Seismic", "/tools/compare/highspot-vs-seismic/"),
+        ("Gong vs Mindtickle", "/tools/compare/gong-vs-mindtickle/"),
+        ("Showpad vs Highspot", "/tools/compare/highspot-vs-showpad/"),
+        ("Allego vs Mindtickle", "/tools/compare/allego-vs-mindtickle/"),
     ]
 
     links = ""
@@ -3567,6 +3805,8 @@ def main():
 
     print("\n  Building career pages...")
     build_careers_index()
+    build_careers_break_into_enablement()
+    build_careers_job_growth()
 
     print("\n  Building glossary...")
     build_glossary_index()

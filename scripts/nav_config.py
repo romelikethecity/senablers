@@ -54,7 +54,7 @@ NAV_ITEMS = [
     },
     {"href": "/glossary/", "label": "Glossary"},
     {
-        "href": "/resources/",
+        "href": "/comparisons/",
         "label": "Resources",
         "children": [
             {"href": "/comparisons/", "label": "Comparisons"},

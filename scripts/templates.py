@@ -59,10 +59,6 @@ def get_html_head(title, description, canonical_path, extra_head="", og_image=""
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
-    <link rel="icon" type="image/x-icon" href="/assets/favicons/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
     <link rel="manifest" href="/assets/favicons/site.webmanifest">
 
     <!-- Google Fonts -->
