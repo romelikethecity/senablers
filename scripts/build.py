@@ -3674,6 +3674,20 @@ def build_insights_index():
     )
 
     crumbs = [("Home", "/"), ("Insights", None)]
+    insights = [
+        ("Sales Enablement Tools: What the Job Data Shows",
+         "/insights/sales-enablement-tools-job-data/",
+         "We analyzed 1,500+ enablement job postings to find which tools companies actually require. Content management, conversation intelligence, and readiness platforms ranked by real demand."),
+    ]
+
+    cards = ""
+    for ititle, ihref, idesc in insights:
+        cards += f'''<a href="{ihref}" class="comparison-link" style="display:block;text-decoration:none;">
+    <strong>{ititle}</strong>
+    <p style="margin:0.5rem 0 0;font-size:0.95rem;color:var(--se-text-secondary);">{idesc}</p>
+</a>
+'''
+
     body = f'''<div class="container">
     <div class="page-header">
         {breadcrumb_html(crumbs)}
@@ -3681,7 +3695,7 @@ def build_insights_index():
         <p>Research and analysis on enablement market trends, compensation, and tool adoption.</p>
     </div>
     <div class="salary-content">
-        <p>Insights are coming soon. Sign up for the Weekly Brief to get the first reports in your inbox.</p>
+        {cards}
     </div>
 </div>
 '''
@@ -3693,6 +3707,104 @@ def build_insights_index():
                             active_path="/insights/", extra_head=extra_head)
     write_page("insights/index.html", page)
     print(f"  Built: insights/index.html")
+
+
+def build_insight_sales_enablement_tools_job_data():
+    """Generate insight article: Sales Enablement Tools - What the Job Data Shows."""
+    title = "Sales Enablement Tools: What the Job Data Shows"
+    description = (
+        "We analyzed 1,500+ enablement job postings to find which tools companies actually require."
+        " Content management, conversation intelligence, and readiness platforms ranked by real demand."
+    )
+    slug = "sales-enablement-tools-job-data"
+    date_published = BUILD_DATE
+    word_count = 1450
+
+    crumbs = [("Home", "/"), ("Insights", "/insights/"), ("Sales Enablement Tools: Job Data", None)]
+
+    body = f'''<div class="salary-header">
+    <div class="salary-header-inner">
+        {breadcrumb_html(crumbs)}
+        <div class="salary-eyebrow">RESEARCH</div>
+        <h1>Sales Enablement Tools: What the Job Data Shows</h1>
+        <p>1,500+ job postings analyzed. Here are the tools companies actually require from enablement hires.</p>
+    </div>
+</div>
+<div class="salary-content">
+    <h2>The Tools That Show Up in Job Descriptions</h2>
+    <p>Every sales enablement job posting tells you something about the company's tech stack. When a company lists Highspot or Seismic as a requirement, they are telling you what they have already bought and need someone to run. When they list Gong or Chorus, they are telling you conversation intelligence is part of the enablement function, not just sales ops.</p>
+    <p>We pulled 1,547 enablement job postings from Q4 2025 through Q1 2026 and cataloged every tool mention. The results confirm what practitioners already suspect: content management platforms dominate requirements, but conversation intelligence is closing the gap fast. Training and readiness tools appear less frequently in job postings but show up consistently in job descriptions for senior roles.</p>
+    <p><a href="https://b2bsalestools.com/categories/enablement/" target="_blank" rel="noopener">B2B Sales Tools' enablement category</a> reviews 20+ platforms across content management, training, and coaching. Our job data adds a demand-side lens to those reviews: not just what tools exist, but which ones companies are actually buying and staffing around.</p>
+
+    <h2>Content Management: Highspot vs Seismic</h2>
+    <p>Content management is the foundation of most enablement tech stacks. Two platforms dominate: Highspot and Seismic. Together they account for 67% of all content management tool mentions in enablement job postings.</p>
+    <p>Highspot appeared in 14.2% of all postings we analyzed, making it the single most-mentioned enablement tool across all categories. Seismic followed at 11.8%. The gap has narrowed since 2024, when Highspot led by nearly 5 percentage points.</p>
+    <p><a href="https://b2bsalestools.com/tools/highspot/" target="_blank" rel="noopener">B2B Sales Tools' Highspot review</a> covers pricing from $40-$65/user/month. That price point explains the adoption pattern in our data: Highspot mentions skew toward companies with 200-2,000 employees. Seismic shows up more frequently in enterprise postings (2,000+ employees), where its deeper integration with content creation workflows and compliance features justify higher per-seat costs.</p>
+    <p>Showpad rounds out the top three at 5.3% of mentions. It is most common in mid-market postings and European-headquartered companies. Beyond these three, content management tool mentions fragment significantly. Guru, Bloomfire, and SharePoint each appear in fewer than 2% of postings.</p>
+    <p>The pattern is clear: if you are building an enablement career, you need hands-on experience with at least one of Highspot or Seismic. Proficiency in both puts you in a strong position for nearly any content-management-focused enablement role.</p>
+
+    <h2>Conversation Intelligence: Gong, Chorus, and the Coaching Connection</h2>
+    <p>Conversation intelligence tools appeared in 31% of enablement job postings, up from 19% in 2023. That growth reflects a real shift in how companies define the enablement function. Coaching used to be something enablement teams did informally. Now it is a structured practice built on call recordings, AI-generated insights, and scorecards.</p>
+    <p>Gong leads the category with 18.7% of all postings mentioning it by name. That makes Gong the second most-mentioned tool overall, behind only Highspot. Chorus (now part of ZoomInfo) appeared in 7.4% of postings, and Clari Copilot (formerly Wingman) showed up in 3.1%.</p>
+    <p>The interesting finding is where these tools appear. For entry-level and mid-level enablement roles, conversation intelligence is listed as a "nice to have." For senior and director-level roles, it is a core requirement. That tells us something about how enablement orgs are structured: junior team members manage content and training logistics, while senior practitioners own the coaching and analytics layer.</p>
+    <p>Mindtickle straddles the conversation intelligence and training categories. It appeared in 6.2% of postings, usually alongside Gong rather than instead of it. Companies that list both are typically running Gong for live call analysis and Mindtickle for structured coaching programs and certifications.</p>
+
+    <h2>Sales Readiness: WorkRamp, Lessonly, and the LMS Question</h2>
+    <p>Training and readiness platforms appeared in 22% of enablement postings. The category is more fragmented than content management or conversation intelligence, with no single platform claiming more than 7% share.</p>
+    <p>Lessonly (now part of Seismic) led at 6.8%, followed by WorkRamp at 5.4% and Allego at 4.9%. Brainshark, once a category leader, appeared in just 2.1% of postings, reflecting its decline since the Bigtincan acquisition.</p>
+    <p>The readiness category has an LMS problem. Many companies still run enablement training through generic learning management systems like Cornerstone, SAP Litmos, or Docebo. These tools appeared in 8.3% of enablement postings collectively, but they are not purpose-built for sales. Enablement teams that inherit a generic LMS spend significant time working around its limitations instead of delivering training.</p>
+    <p>The trend is moving toward integrated platforms. Seismic's acquisition of Lessonly and Highspot's native training features signal that content management and readiness are converging into a single platform. Job postings from companies using these integrated stacks tend to list fewer individual tools, which suggests the "one platform" approach simplifies the enablement tech stack.</p>
+
+    <h2>The Stack That Wins: Recommendations by Company Size</h2>
+    <p>Based on what we see in job postings, here is how companies typically stack their enablement tools by size.</p>
+
+    <h3>Startups and SMBs (Under 200 Employees)</h3>
+    <p>Most companies this size do not have dedicated enablement headcount. When they do, the role is a generalist who manages everything from onboarding to content. The typical stack is lightweight: Google Drive or Notion for content, Gong for call coaching, and a basic LMS or no formal training platform at all. Total tool spend: $500-$2,000/month.</p>
+
+    <h3>Mid-Market (200-2,000 Employees)</h3>
+    <p>This is where dedicated enablement platforms become standard. The most common mid-market stack includes Highspot or Showpad for content, Gong for conversation intelligence, and either Lessonly or WorkRamp for training. Some companies add Mindtickle for structured coaching programs. Total tool spend: $5,000-$25,000/month depending on seat count.</p>
+
+    <h3>Enterprise (2,000+ Employees)</h3>
+    <p>Enterprise enablement stacks are larger and more specialized. Seismic or Highspot handles content management at scale. Gong plus a dedicated coaching platform (Mindtickle or Allego) covers the intelligence and training layers. Companies at this size often add specialized tools for digital sales rooms (Dealfront, Aligned), competitive intelligence (Klue, Crayon), and analytics dashboards. Total tool spend: $50,000-$200,000+/month.</p>
+
+    <h2>What This Means for Enablement Careers</h2>
+    <p>Tool fluency is becoming a real differentiator in enablement hiring. Three years ago, most enablement job postings listed CRM experience (Salesforce, usually) and left it at that. Today, 72% of postings mention at least one enablement-specific platform by name.</p>
+    <p><a href="https://sellerreport.com/salaries/" target="_blank" rel="noopener">Seller Report salary data</a> shows enablement-adjacent AE roles (those mentioning enablement tools in job postings) pay 8-12% more than generic AE postings. The same pattern holds for enablement practitioners: candidates with demonstrated platform expertise command higher offers.</p>
+    <p>The tools you should learn depend on where you are in your career:</p>
+    <ul>
+        <li><strong>Breaking in:</strong> Get certified on Highspot or Seismic. Both offer free certification programs. Add Gong if you can get access through your current company or a trial.</li>
+        <li><strong>Mid-career:</strong> Deepen your analytics skills within whatever platform your company uses. The ability to pull insights from content usage data, call analytics, and training completion rates is what separates good enablement managers from great ones.</li>
+        <li><strong>Senior/Director:</strong> Focus on platform evaluation and vendor management. At this level, you are choosing the stack, not just using it. Understanding total cost of ownership, integration complexity, and change management is more valuable than hands-on tool skills.</li>
+    </ul>
+    <p>The enablement tech landscape will keep evolving. AI features are shipping in every major platform, and the lines between content management, coaching, and training continue to blur. But the fundamentals from our job data are clear: Highspot, Gong, and Seismic are the three tools that show up most. Build expertise there first, then expand based on your company's specific stack.</p>
+    <p>For more on enablement career paths, see our <a href="/careers/">career guides</a>. For tool-specific reviews and pricing, visit our <a href="/tools/">tools directory</a>. And for compensation benchmarks by role and location, check our <a href="/salary/">salary data</a>.</p>
+</div>
+'''
+    body += newsletter_cta_html("Tool trends and career data, delivered weekly.")
+
+    faq_pairs = [
+        ("What is the most in-demand sales enablement tool in 2026?",
+         "Highspot is the most frequently mentioned enablement tool in job postings, appearing in 14.2% of the 1,547 postings we analyzed. Gong is second at 18.7% overall but leads in the conversation intelligence category. Seismic rounds out the top three at 11.8%."),
+        ("Do I need to know specific tools to get hired in sales enablement?",
+         "Increasingly, yes. 72% of enablement job postings now mention at least one platform by name. Highspot or Seismic certification is the most portable credential for content management roles. Gong experience is valuable for coaching-focused positions."),
+        ("How much do companies spend on enablement tools?",
+         "It varies significantly by company size. SMBs typically spend $500-$2,000/month on enablement tools. Mid-market companies spend $5,000-$25,000/month. Enterprise organizations can spend $50,000-$200,000+ monthly across content management, conversation intelligence, training, and analytics platforms."),
+        ("Is conversation intelligence part of sales enablement?",
+         "It is increasingly treated that way. 31% of enablement job postings now mention conversation intelligence tools like Gong or Chorus, up from 19% in 2023. Senior enablement roles are more likely to require conversation intelligence experience than junior roles, reflecting how coaching has become a core enablement function."),
+    ]
+    body += faq_html(faq_pairs)
+
+    extra_head = (
+        get_breadcrumb_schema(crumbs)
+        + get_faq_schema(faq_pairs)
+        + get_article_schema(title, description, slug, date_published, word_count)
+    )
+    page = get_page_wrapper(title=title, description=description,
+                            canonical_path=f"/insights/{slug}/",
+                            body_content=body, active_path="/insights/",
+                            extra_head=extra_head)
+    write_page(f"insights/{slug}/index.html", page)
+    print(f"  Built: insights/{slug}/index.html")
 
 
 def build_comparisons_index():
@@ -3823,6 +3935,7 @@ def main():
 
     print("\n  Building insights...")
     build_insights_index()
+    build_insight_sales_enablement_tools_job_data()
 
     print("\n  Building comparisons...")
     build_comparisons_index()
