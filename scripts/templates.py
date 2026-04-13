@@ -23,15 +23,9 @@ def get_html_head(title, description, canonical_path, extra_head="", og_image=""
     canonical = f"{SITE_URL}{canonical_path}"
     full_title = f"{title} - {SITE_NAME}" if title != SITE_NAME else SITE_NAME
 
-    og_image_tags = ""
-    twitter_image_tag = ""
-    if og_image:
-        og_image_url = f"{SITE_URL}{og_image}"
-        og_image_tags = f"""
-    <meta property="og:image" content="{og_image_url}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">"""
-        twitter_image_tag = f'\n    <meta name="twitter:image" content="{og_image_url}">'
+    # Always provide an OG image — fall back to site-wide default
+    og_image = og_image or "/assets/og-default.png"
+    og_image_url = f"{SITE_URL}{og_image}"
 
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -50,12 +44,16 @@ def get_html_head(title, description, canonical_path, extra_head="", og_image=""
     <meta property="og:url" content="{canonical}">
     <meta property="og:title" content="{full_title}">
     <meta property="og:description" content="{description}">
-    <meta property="og:site_name" content="{SITE_NAME}">{og_image_tags}
+    <meta property="og:site_name" content="{SITE_NAME}">
+    <meta property="og:image" content="{og_image_url}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{full_title}">
-    <meta name="twitter:description" content="{description}">{twitter_image_tag}
+    <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="{og_image_url}">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
