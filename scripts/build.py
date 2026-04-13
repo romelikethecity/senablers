@@ -4081,6 +4081,18 @@ def main():
     shutil.copytree(ASSETS_DIR, os.path.join(OUTPUT_DIR, "assets"))
     print("  Copied assets/")
 
+    # Copy static pages (resource directories, etc.)
+    pages_dir = os.path.join(PROJECT_DIR, "pages")
+    if os.path.exists(pages_dir):
+        for item in os.listdir(pages_dir):
+            src = os.path.join(pages_dir, item)
+            dst = os.path.join(OUTPUT_DIR, item)
+            if os.path.isdir(src):
+                shutil.copytree(src, dst)
+            else:
+                shutil.copy2(src, dst)
+        print("  Copied pages/")
+
     print("\n  Building core pages...")
     build_homepage()
     build_about_page()
