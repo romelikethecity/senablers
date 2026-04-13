@@ -3552,16 +3552,16 @@ def _glossary_expansion_sections(term_name, short_def, related_terms):
         "Content Strategy", "Sales Coaching", "Data Analysis",
         "Stakeholder Management", "Training Design", "CRM Administration"
     ]
-    skill_descriptions = [
-        f"Understanding {s} and how it connects to {term_name} gives you a more complete view of the discipline.",
-        f"Practitioners who understand {s} are better equipped to implement {term_name} initiatives that stick.",
-        f"{s} is frequently paired with {term_name} in job descriptions and team charters.",
-        f"Building skill in {s} supports the kind of cross-functional work that {term_name} requires.",
-        f"Teams that combine {s} with {term_name} tend to see faster adoption and better results.",
-        f"A working knowledge of {s} helps you communicate the value of {term_name} to leadership.",
+    _desc_templates = [
+        "Understanding {s} and how it connects to {term_name} gives you a more complete view of the discipline.",
+        "Practitioners who understand {s} are better equipped to implement {term_name} initiatives that stick.",
+        "{s} is frequently paired with {term_name} in job descriptions and team charters.",
+        "Building skill in {s} supports the kind of cross-functional work that {term_name} requires.",
+        "Teams that combine {s} with {term_name} tend to see faster adoption and better results.",
+        "A working knowledge of {s} helps you communicate the value of {term_name} to leadership.",
     ]
     for i, s in enumerate(skill_sources[:6]):
-        desc = skill_descriptions[i] if i < len(skill_descriptions) else f"This skill complements {term_name} in practice."
+        desc = _desc_templates[i].format(s=s, term_name=term_name) if i < len(_desc_templates) else f"This skill complements {term_name} in practice."
         skill_items += f"<li><strong>{s}:</strong> {desc}</li>\n"
 
     sections = f'''
