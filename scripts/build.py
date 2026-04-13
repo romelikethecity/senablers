@@ -3872,10 +3872,113 @@ def build_sitemap():
 
 
 def build_robots():
-    content = f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n"
+    content = f"""User-agent: *
+Allow: /
+
+Sitemap: {SITE_URL}/sitemap.xml
+
+# AI/LLM crawlers - explicitly allowed for AI search citations
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+"""
     with open(os.path.join(OUTPUT_DIR, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(content)
     print(f"  Built: robots.txt")
+
+
+def build_llms_txt():
+    content = f"""# SEnablers
+
+> SEnablers is an independent career intelligence platform for sales enablement professionals. The site provides salary benchmarks by seniority and location, vendor-neutral reviews of enablement platforms including content management systems, training and readiness tools, conversation intelligence software, and digital sales rooms, a searchable glossary of enablement terminology, company hiring profiles, and career guides. All data is updated weekly and free to access.
+
+## Core Pages
+- [Homepage]({SITE_URL}/)
+- [About]({SITE_URL}/about/)
+- [Newsletter]({SITE_URL}/newsletter/)
+
+## Salary Data
+- [Salary Index]({SITE_URL}/salary/): Aggregate enablement salary benchmarks
+- [By Seniority]({SITE_URL}/salary/by-seniority/): Entry through Director/VP
+- [By Location]({SITE_URL}/salary/by-location/): Major metros
+- [Remote vs Onsite]({SITE_URL}/salary/remote-vs-onsite/)
+- [Salary Calculator]({SITE_URL}/salary/calculator/)
+
+### Salary Comparisons
+- [Enablement vs Sales Training]({SITE_URL}/salary/vs-sales-training/)
+- [Enablement vs Sales Ops]({SITE_URL}/salary/vs-sales-ops/)
+- [Enablement vs RevOps]({SITE_URL}/salary/vs-revops/)
+- [Enablement vs Product Marketing]({SITE_URL}/salary/vs-product-marketing/)
+
+## Tool Reviews
+- [Tools Index]({SITE_URL}/tools/): All enablement tools reviewed
+- [Content Management]({SITE_URL}/tools/category/content-management/)
+- [Training & Readiness]({SITE_URL}/tools/category/training/)
+- [Digital Sales Rooms]({SITE_URL}/tools/category/digital-sales-rooms/)
+- [Conversation Intelligence]({SITE_URL}/tools/category/conversation-intelligence/)
+
+### Tool Comparisons
+- [Highspot vs Seismic]({SITE_URL}/tools/compare/highspot-vs-seismic/)
+- [Highspot vs Showpad]({SITE_URL}/tools/compare/highspot-vs-showpad/)
+- [Gong vs Chorus]({SITE_URL}/tools/compare/gong-vs-chorus/)
+- [MindTickle vs SalesHood]({SITE_URL}/tools/compare/mindtickle-vs-saleshood/)
+- [Aligned vs Dock]({SITE_URL}/tools/compare/aligned-vs-dock/)
+
+## Career Resources
+- [Career Guides]({SITE_URL}/careers/)
+- [How to Break Into Enablement]({SITE_URL}/careers/how-to-break-into-enablement/)
+- [Companies Hiring]({SITE_URL}/companies/)
+
+## Glossary
+- [Glossary Index]({SITE_URL}/glossary/): Sales enablement terminology defined
+- [Sales Enablement]({SITE_URL}/glossary/sales-enablement/)
+- [Revenue Enablement]({SITE_URL}/glossary/revenue-enablement/)
+- [MEDDPICC]({SITE_URL}/glossary/meddpicc/)
+- [Sales Playbook]({SITE_URL}/glossary/sales-playbook/)
+- [Battle Card]({SITE_URL}/glossary/battle-card/)
+- [Discovery Call]({SITE_URL}/glossary/discovery-call/)
+"""
+    with open(os.path.join(OUTPUT_DIR, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"  Built: llms.txt")
 
 
 # ---------------------------------------------------------------------------
@@ -3951,6 +4054,7 @@ def main():
     print("\n  Building meta files...")
     build_sitemap()
     build_robots()
+    build_llms_txt()
 
     with open(os.path.join(OUTPUT_DIR, "CNAME"), "w", encoding="utf-8") as f:
         f.write("senablers.com\n")
