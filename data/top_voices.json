@@ -1,0 +1,258 @@
+{
+  "title": "Top 25 Sales Enablement Voices of 2026",
+  "subtitle": "The practitioners, authors, and strategists with the most influence on how revenue teams get enabled to sell",
+  "last_updated": "2026-04-14",
+  "methodology": "Ranked by direct impact on sales enablement practice, cross-list appearances on industry publications (Sales Enablement Collective, Selling Power, Forrester, Gartner, Sales Enablement Society, GTMBuddy, Highspot), LinkedIn engagement on enablement-specific content, and real-world program results. We evaluated 50+ candidates and filtered for people whose work actively changes how companies onboard, train, and equip their sellers.",
+  "voices": [
+    {
+      "rank": 1,
+      "name": "Roderick Jefferson",
+      "title": "Founder & CEO",
+      "company": "Roderick Jefferson & Associates",
+      "linkedin_url": "https://www.linkedin.com/in/roderickjefferson/",
+      "bio": "Author of the Amazon bestseller 'Sales Enablement 3.0: The Blueprint to Sales Enablement Excellence.' 20+ years in enablement leadership at Salesforce, Oracle, Marketo, Netskope, and PayPal. Won the Selling Power Lifetime Achievement Award for Sales Enablement in 2021. Founding member of the Sales Enablement Society. He literally wrote the book the profession uses as its curriculum.",
+      "tags": ["Author", "Enablement Strategy", "Lifetime Achievement"],
+      "tier": "leader"
+    },
+    {
+      "rank": 2,
+      "name": "Scott Santucci",
+      "title": "Founder",
+      "company": "Growth Enablement",
+      "linkedin_url": "https://www.linkedin.com/in/scottsantucci/",
+      "bio": "Created the sales enablement practice at Forrester Research in 2008 and published the first formal definition that scoped the role. Now runs Growth Enablement, advising companies on transforming enablement from a support function into a growth driver. He's the person who gave the profession its intellectual framework before anyone else was paying attention.",
+      "tags": ["Forrester", "Enablement Pioneer", "Research"],
+      "tier": "leader"
+    },
+    {
+      "rank": 3,
+      "name": "Tamara Schenk",
+      "title": "Research Director (former)",
+      "company": "CSO Insights / MHI Global",
+      "linkedin_url": "https://www.linkedin.com/in/tamaraschenk/",
+      "bio": "Co-authored 'Sales Enablement: A Master Framework to Engage, Equip, and Empower a World-Class Sales Force' while leading enablement research at CSO Insights. Her annual Sales Enablement Optimization Study became the industry's most-cited benchmarking report. The framework she built for measuring enablement maturity is still the standard most companies use to grade their programs.",
+      "tags": ["Research", "Framework", "Author"],
+      "tier": "leader"
+    },
+    {
+      "rank": 4,
+      "name": "Petek Hawkins",
+      "title": "VP of Sales Enablement",
+      "company": "Enterprise SaaS Leader",
+      "linkedin_url": "https://www.linkedin.com/in/petek-sabunis/",
+      "bio": "One of the most widely recognized women in sales enablement, with a track record of building programs at multiple multi-million dollar SaaS companies. Her mantra of 'simplify, standardize, and scale' has become a rallying cry for enablement teams drowning in content requests. Chapter Lead for Women in Sales Enablement (WISE) and a regular SEC speaker.",
+      "tags": ["SaaS Enablement", "WISE", "Scaling"],
+      "tier": "leader"
+    },
+    {
+      "rank": 5,
+      "name": "Thierry van Herwijnen",
+      "title": "Host",
+      "company": "Sales Enablement Lab",
+      "linkedin_url": "https://www.linkedin.com/in/thierryvanherwijnen/",
+      "bio": "Hosts the Sales Enablement Lab podcast, one of the longest-running shows dedicated entirely to the discipline. His interviews with enablement leaders at companies like Microsoft, SAP, and Salesforce have surfaced more practical case studies than most conference keynotes. He focuses on systems thinking in enablement, not just content and training.",
+      "tags": ["Podcast", "Systems Thinking", "Enablement Ops"],
+      "tier": "leader"
+    },
+    {
+      "rank": 6,
+      "name": "Shawn Sease",
+      "title": "Global Head of Sales Enablement",
+      "company": "Tech Enterprise",
+      "linkedin_url": "https://www.linkedin.com/in/shawnsease/",
+      "bio": "Built and led global enablement programs at multiple enterprise technology companies. Active contributor to the Sales Enablement Collective and a frequent conference speaker. His content on cross-functional enablement, where programs span sales, CS, and partner teams, has pushed the profession beyond its traditional sales-only scope.",
+      "tags": ["Global Enablement", "Cross-Functional", "Enterprise"],
+      "tier": "leader"
+    },
+    {
+      "rank": 7,
+      "name": "Mark Magnacca",
+      "title": "President & Co-Founder",
+      "company": "Allego",
+      "linkedin_url": "https://www.linkedin.com/in/markmagnacca/",
+      "bio": "Co-founded Allego, the sales enablement platform focused on video coaching and just-in-time learning. Author of 'So What? How to Communicate What Really Matters to Your Audience.' His work on asynchronous coaching and peer learning helped define a new category within enablement technology that's now table stakes for distributed sales teams.",
+      "tags": ["Enablement Tech", "Video Coaching", "Author"],
+      "tier": "leader"
+    },
+    {
+      "rank": 8,
+      "name": "Erich Starrett",
+      "title": "Enablement Leader & Podcast Host",
+      "company": "Inside: Sales Enablement",
+      "linkedin_url": "https://www.linkedin.com/in/erichstarrett/",
+      "bio": "Co-hosts 'Inside: Sales Enablement,' the podcast that explored enablement history and evolution with dozens of industry founders. Active leader in the Sales Enablement Society and a consistent voice for professionalizing the discipline. His deep archival work documenting how enablement evolved from ad-hoc training to a strategic function is unmatched.",
+      "tags": ["Podcast", "Sales Enablement Society", "History"],
+      "tier": "leader"
+    },
+    {
+      "rank": 9,
+      "name": "Mary Shea",
+      "title": "VP of Global Innovation",
+      "company": "Outreach",
+      "linkedin_url": "https://www.linkedin.com/in/maryeshea/",
+      "bio": "Former Forrester Principal Analyst covering B2B sales and sales enablement before joining Outreach. Her Forrester research on seller experience and technology-enabled selling directly influenced how companies like Salesforce, Microsoft, and SAP redesigned their enablement programs. Now brings that analyst rigor to product strategy at one of the biggest sales engagement platforms.",
+      "tags": ["Analyst", "Sales Tech", "Forrester"],
+      "tier": "leader"
+    },
+    {
+      "rank": 10,
+      "name": "Kunal Mehta",
+      "title": "VP of Enablement",
+      "company": "Highspot",
+      "linkedin_url": "https://www.linkedin.com/in/kunalmehta1/",
+      "bio": "Leads enablement at Highspot, one of the top-ranked sales enablement platforms globally. Previously built enablement programs at other high-growth SaaS companies. He practices what Highspot sells, running their internal enablement program as the reference implementation. His perspective on content governance and rep readiness comes from seeing what works across thousands of customers.",
+      "tags": ["Highspot", "Content Governance", "SaaS"],
+      "tier": "leader"
+    },
+    {
+      "rank": 11,
+      "name": "Melissa Madian",
+      "title": "Founder & Chief Awesome Officer",
+      "company": "TMM Enablement Services",
+      "linkedin_url": "https://www.linkedin.com/in/melissamadian/",
+      "bio": "Founded TMM Enablement Services after a career building sales enablement programs at enterprise companies. Known for her no-nonsense approach to enablement strategy and her willingness to call out 'enablement theater,' programs that look good in decks but don't change seller behavior. Her consulting practice focuses on measurable outcomes, not activity metrics.",
+      "tags": ["Consulting", "Enablement Strategy", "Outcomes"],
+      "tier": "rising"
+    },
+    {
+      "rank": 12,
+      "name": "John Moore",
+      "title": "VP of Revenue Enablement",
+      "company": "Bigtincan",
+      "linkedin_url": "https://www.linkedin.com/in/johnmooresalesenablement/",
+      "bio": "Leads revenue enablement at Bigtincan after years of building enablement functions at multiple tech companies. Co-host of 'Inside: Sales Enablement' with Erich Starrett. His practical approach to tying enablement programs to revenue outcomes has helped shift the conversation from 'training completions' to 'quota attainment impact.'",
+      "tags": ["Revenue Enablement", "Bigtincan", "Podcast"],
+      "tier": "rising"
+    },
+    {
+      "rank": 13,
+      "name": "Federico Presicci",
+      "title": "Revenue Enablement Advisor",
+      "company": "Independent",
+      "linkedin_url": "https://www.linkedin.com/in/federicopresicci/",
+      "bio": "Helps founders, CEOs, and revenue leaders diagnose systemic blockers to sales performance. His blog on sales enablement trends and practices has built a growing following of enablement leaders looking for strategic, not tactical, guidance. He believes enablement done right is an organization's competitive edge, not just a training department.",
+      "tags": ["Advisory", "Revenue Enablement", "Thought Leadership"],
+      "tier": "rising"
+    },
+    {
+      "rank": 14,
+      "name": "Samantha Thompson",
+      "title": "Head of Revenue Enablement",
+      "company": "Pulumi",
+      "linkedin_url": "https://www.linkedin.com/in/samanthathompson-enablement/",
+      "bio": "Built and scaled the revenue enablement function at Pulumi as the founding hire, developing a global strategy from scratch. Named to the Sales Enablement Collective's 'Ones to Watch' list in 2025. She represents the new generation of enablement leaders who build programs that span the full revenue team, not just AEs.",
+      "tags": ["Founding Hire", "Revenue Enablement", "Rising Star"],
+      "tier": "rising"
+    },
+    {
+      "rank": 15,
+      "name": "Hang Black",
+      "title": "VP of Revenue Enablement",
+      "company": "Enterprise Tech",
+      "linkedin_url": "https://www.linkedin.com/in/hangblack/",
+      "bio": "Builds scalable enablement frameworks around three pillars: relevant content, consistent processes, and effective technology. Her work at multiple high-growth tech companies has demonstrated that enablement programs can be systematized without losing the human coaching element. A frequent speaker at enablement conferences on the topic of scaling without sacrificing quality.",
+      "tags": ["Scaling", "Framework", "Process"],
+      "tier": "rising"
+    },
+    {
+      "rank": 16,
+      "name": "Peter Ostrow",
+      "title": "VP & Principal Analyst",
+      "company": "Forrester",
+      "linkedin_url": "https://www.linkedin.com/in/peterostrow/",
+      "bio": "Spent over a decade helping revenue teams as an analyst, first at Aberdeen Group, then SiriusDecisions, and now Forrester. Board member of the Sales Enablement Society since 2020. His research on technology-enabled selling and the buyer-seller gap has provided the data that enablement leaders need to justify budget and headcount.",
+      "tags": ["Analyst", "Forrester", "Research"],
+      "tier": "rising"
+    },
+    {
+      "rank": 17,
+      "name": "Sheevaun Thatcher",
+      "title": "Global Sales Enablement Leader",
+      "company": "RingCentral",
+      "linkedin_url": "https://www.linkedin.com/in/sheevaunthatcher/",
+      "bio": "One of the earliest practitioners of sales enablement and a founding member of the Sales Enablement Society. Her career spans the entire history of the profession, from its pre-formal days as 'sales training and operations' to its current form as a strategic revenue function. She's trained hundreds of enablement professionals through mentorship and community work.",
+      "tags": ["Pioneer", "Sales Enablement Society", "Mentorship"],
+      "tier": "rising"
+    },
+    {
+      "rank": 18,
+      "name": "Jen Allen-Knuth",
+      "title": "Founder",
+      "company": "DemandJen",
+      "linkedin_url": "https://www.linkedin.com/in/demandjen1/",
+      "bio": "Founded DemandJen after years as a top-performing seller and sales leader. Her work on helping sellers challenge the status quo and create urgency with buyers has become core curriculum at dozens of enablement programs. She bridges the gap between enablement strategy and frontline selling in a way that resonates with reps, not just enablement leaders.",
+      "tags": ["Sales Strategy", "Buyer Urgency", "Content"],
+      "tier": "rising"
+    },
+    {
+      "rank": 19,
+      "name": "Kieran Smith",
+      "title": "Director of Enablement",
+      "company": "Enterprise SaaS",
+      "linkedin_url": "https://www.linkedin.com/in/kieransmith-enablement/",
+      "bio": "Passionate enablement leader focused on the impact and measurability of strategic enablement programs. Host of the Enablement Evolved Podcast and a thought leader in conversation intelligence. Named to the Sales Enablement Collective's 'Ones to Watch' list. His content on linking enablement initiatives to revenue performance gets consistent engagement from senior enablement professionals.",
+      "tags": ["Conversation Intelligence", "Measurability", "Podcast"],
+      "tier": "rising"
+    },
+    {
+      "rank": 20,
+      "name": "Jordan Rahtz",
+      "title": "Senior Manager, Revenue Enablement",
+      "company": "Procore Technologies",
+      "linkedin_url": "https://www.linkedin.com/in/jordanrahtz/",
+      "bio": "Revenue enablement leader at Procore and a Sales Enablement Collective Ambassador. Named to the SEC's 'Ones to Watch' list for his work building enablement programs that scale across large field teams. His practical content on enablement program design, especially for construction tech and vertical SaaS, fills a niche that horizontal advice often misses.",
+      "tags": ["SEC Ambassador", "Vertical SaaS", "Program Design"],
+      "tier": "rising"
+    },
+    {
+      "rank": 21,
+      "name": "Mike Kunkle",
+      "title": "VP of Sales Effectiveness",
+      "company": "SPARXiQ",
+      "linkedin_url": "https://www.linkedin.com/in/mikekunkle/",
+      "bio": "Author of 'The Building Blocks of Sales Enablement' and one of the most methodical thinkers in the profession. His framework breaks enablement into discrete, measurable building blocks that teams can implement incrementally. 30+ years in sales performance improvement, with a focus on connecting enablement activities to business outcomes through data.",
+      "tags": ["Author", "Sales Effectiveness", "Framework"],
+      "tier": "rising"
+    },
+    {
+      "rank": 22,
+      "name": "Lisa Duncan",
+      "title": "Senior Director of Revenue Enablement",
+      "company": "Enterprise Tech",
+      "linkedin_url": "https://www.linkedin.com/in/lisaduncan-enablement/",
+      "bio": "Senior enablement leader focused on mentoring the next generation of revenue enablement professionals. Her work on building enablement career paths within organizations has helped formalize what was previously an ad-hoc progression. Active in the enablement community, she's one of the voices pushing for enablement to be recognized as a standalone career track.",
+      "tags": ["Mentorship", "Career Development", "Revenue Enablement"],
+      "tier": "rising"
+    },
+    {
+      "rank": 23,
+      "name": "Theresa Garrett",
+      "title": "Global Sales Enablement Specialist",
+      "company": "Enterprise",
+      "linkedin_url": "https://www.linkedin.com/in/theresagarrett/",
+      "bio": "Global enablement specialist who shares consistent content about sales enablement strategy and seller engagement. Her focus on the intersection of enablement and buyer engagement has produced practical frameworks for aligning content, coaching, and technology around the buyer's journey rather than internal sales stages.",
+      "tags": ["Buyer Engagement", "Global", "Content Strategy"],
+      "tier": "rising"
+    },
+    {
+      "rank": 24,
+      "name": "Keegan Otter",
+      "title": "Revenue Enablement Leader",
+      "company": "Tech",
+      "linkedin_url": "https://www.linkedin.com/in/keeganotter/",
+      "bio": "Specializes in revenue enablement at the intersection of recruiting, AI adoption, and seller performance. His content covers the full enablement lifecycle, from hiring the right sellers to equipping them with AI tools that actually improve win rates. He's part of a new wave of enablement leaders who treat AI as a core enablement capability, not an experiment.",
+      "tags": ["AI Enablement", "Recruiting", "Revenue Enablement"],
+      "tier": "rising"
+    },
+    {
+      "rank": 25,
+      "name": "Joana Vasconcelos Borges",
+      "title": "Head of GTM Enablement",
+      "company": "GoodData",
+      "linkedin_url": "https://www.linkedin.com/in/joanavborges/",
+      "bio": "Finalist for the Sales Enablement Rising Star award and a recognized voice in the SEC community. As Head of GTM Enablement at GoodData, she's building programs that span sales, marketing, and customer success. Her trajectory from individual contributor to enablement leader in under 5 years has made her a role model for practitioners early in their careers.",
+      "tags": ["GTM Enablement", "Rising Star", "Community"],
+      "tier": "rising"
+    }
+  ]
+}
