@@ -718,6 +718,27 @@ def build_homepage():
     </div>
 </section>
 
+<section class="popular-pages">
+    <div class="popular-pages-inner">
+        <h2>Popular Pages</h2>
+        <p class="popular-pages-subtitle">The most-read enablement salary data, tool comparisons, and career guides on the site.</p>
+        <div class="popular-pages-grid">
+            <a href="/salary/by-seniority/senior/" class="popular-page-link"><span class="page-tag">Salary</span><br>Senior Enablement Manager Salary</a>
+            <a href="/salary/by-seniority/director-vp/" class="popular-page-link"><span class="page-tag">Salary</span><br>Director/VP of Enablement Salary</a>
+            <a href="/salary/remote-vs-onsite/" class="popular-page-link"><span class="page-tag">Salary</span><br>Remote vs Onsite Pay Gap</a>
+            <a href="/salary/vs-revops/" class="popular-page-link"><span class="page-tag">Salary</span><br>Enablement vs RevOps Pay</a>
+            <a href="/salary/vs-sales-ops/" class="popular-page-link"><span class="page-tag">Salary</span><br>Enablement vs Sales Ops Pay</a>
+            <a href="/salary/calculator/" class="popular-page-link"><span class="page-tag">Salary</span><br>Enablement Salary Calculator</a>
+            <a href="/tools/compare/highspot-vs-seismic/" class="popular-page-link"><span class="page-tag">Compare</span><br>Highspot vs Seismic</a>
+            <a href="/tools/compare/gong-vs-chorus/" class="popular-page-link"><span class="page-tag">Compare</span><br>Gong vs Chorus</a>
+            <a href="/tools/compare/allego-vs-mindtickle/" class="popular-page-link"><span class="page-tag">Compare</span><br>Allego vs Mindtickle</a>
+            <a href="/careers/how-to-break-into-enablement/" class="popular-page-link"><span class="page-tag">Career</span><br>How to Break Into Enablement</a>
+            <a href="/careers/job-growth/" class="popular-page-link"><span class="page-tag">Career</span><br>Enablement Job Market Growth</a>
+            <a href="/tools/compare/highspot-vs-showpad/" class="popular-page-link"><span class="page-tag">Compare</span><br>Highspot vs Showpad</a>
+        </div>
+    </div>
+</section>
+
 '''
     body += newsletter_cta_html()
 

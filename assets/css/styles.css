@@ -1159,3 +1159,67 @@ body.page-home .main-content {
         grid-template-columns: 1fr;
     }
 }
+
+/* ---- Popular Pages (homepage) ---- */
+.popular-pages {
+    padding: var(--se-space-12) 0;
+    background: var(--se-bg-primary);
+}
+
+.popular-pages-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 var(--se-space-6);
+}
+
+.popular-pages-inner h2 {
+    text-align: center;
+    margin-bottom: var(--se-space-2);
+}
+
+.popular-pages-subtitle {
+    text-align: center;
+    color: var(--se-text-secondary);
+    margin-bottom: var(--se-space-8);
+}
+
+.popular-pages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--se-space-3);
+}
+
+.popular-page-link {
+    display: block;
+    padding: var(--se-space-4) var(--se-space-6);
+    background: var(--se-bg-surface);
+    border: 1px solid var(--se-border);
+    border-radius: var(--se-radius-lg);
+    text-decoration: none;
+    color: var(--se-text-primary);
+    font-weight: var(--se-weight-semibold);
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.popular-page-link:hover {
+    border-color: var(--se-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.popular-page-link .page-tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--se-accent);
+    margin-bottom: var(--se-space-1);
+}
+
+@media (max-width: 640px) {
+    .popular-pages-grid {
+        grid-template-columns: 1fr;
+    }
+}
