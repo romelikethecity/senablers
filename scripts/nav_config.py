@@ -101,9 +101,11 @@ FOOTER_COLUMNS = {
         {"href": "/terms/", "label": "Terms of Service"},
     ],
     "Sales Enablement Resources": [
+        {"href": "https://thegtmindex.com", "label": "The GTM Index", "external": True},
         {"href": "https://gtmepulse.com", "label": "GTME Pulse", "external": True},
         {"href": "https://therevopsreport.com", "label": "RevOps Report", "external": True},
         {"href": "https://b2bsalestools.com", "label": "B2B Sales Tools", "external": True},
         {"href": "https://datastackguide.com", "label": "DataStack Guide", "external": True},
+        {"href": "https://presalespulse.com", "label": "PreSales Pulse", "external": True},
     ],
 }
