@@ -35,6 +35,7 @@ RESOURCE_DATA = {
             {"name": "Seismic Resources", "url": "https://www.seismic.com/newsroom/", "desc": "Product releases, research reports, and enablement content from the leading enablement platform."},
             {"name": "FFWD Sales Enablement", "url": "https://www.goffwd.com/", "desc": "Felix Krueger's consulting firm with 'This Month In Sales Enablement' content roundups."},
             {"name": "SE Nablers", "url": "https://senablers.com/", "desc": "Sales enablement professional community and career resources.", "owned": True},
+            {"name": "MOPs Report", "url": "https://mopsreport.com/", "desc": "Marketing operations career intelligence with tool reviews and salary data for the enablement-adjacent MOps function.", "owned": True},
         ]},
         {"title": "Communities", "items": [
             {"name": "Sales Enablement Collective", "url": "https://www.salesenablementcollective.com/", "desc": "18,000+ member community with newsletter, podcast, summits, and resources library."},
