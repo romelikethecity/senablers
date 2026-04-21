@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#111111"/>
+  <rect x="40" y="40" width="1120" height="550" rx="16" fill="#202020" stroke="#DC2626" stroke-opacity="0.15"/>
+  <text x="100" y="100" fill="#DC2626" font-family="sans-serif" font-size="28" font-weight="700">Hiring Dashboard</text>
+  <text x="100" y="135" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="16">Active roles and market signals</text>
+  <rect x="80" y="170" width="340" height="100" rx="10" fill="#111111" stroke="#DC2626" stroke-opacity="0.15"/>
+  <text x="100" y="210" fill="#DC2626" font-family="monospace" font-size="28" font-weight="700">247</text>
+  <text x="100" y="245" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="14">Active roles this week</text>
+  <rect x="440" y="170" width="340" height="100" rx="10" fill="#111111" stroke="#B91C1C" stroke-opacity="0.15"/>
+  <text x="460" y="210" fill="#B91C1C" font-family="monospace" font-size="28" font-weight="700">+18%</text>
+  <text x="460" y="245" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="14">Week-over-week growth</text>
+  <rect x="800" y="170" width="340" height="100" rx="10" fill="#111111" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="820" y="210" fill="#FFFFFF" font-family="monospace" font-size="28" font-weight="700">$185K</text>
+  <text x="820" y="245" fill="rgba(255,255,255,0.5)" font-family="sans-serif" font-size="14">Median salary posted</text>
+  <rect x="80" y="300" width="1040" height="200" rx="10" fill="#111111"/>
+  <rect x="100" y="330" width="800" height="10" rx="4" fill="#DC2626" opacity="0.3"/>
+  <rect x="100" y="360" width="650" height="10" rx="4" fill="#DC2626" opacity="0.25"/>
+  <rect x="100" y="390" width="500" height="10" rx="4" fill="#B91C1C" opacity="0.2"/>
+  <rect x="100" y="420" width="400" height="10" rx="4" fill="#B91C1C" opacity="0.15"/>
+  <text x="1060" y="560" text-anchor="end" fill="rgba(255,255,255,0.5)" font-family="monospace" font-size="11" opacity="0.5">senablers.com</text>
+</svg>
