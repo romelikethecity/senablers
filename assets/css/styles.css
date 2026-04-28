@@ -1223,3 +1223,24 @@ body.page-home .main-content {
         grid-template-columns: 1fr;
     }
 }
+
+
+/* Sources & Methodology (E-E-A-T trust signal) */
+.content-sources {
+    max-width: 800px;
+    margin: 3rem auto 0;
+    padding: 1.5rem 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+.content-sources h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.75rem;
+    opacity: 0.6;
+}
+.content-sources ul { list-style: none; padding: 0; margin: 0; }
+.content-sources li { margin-bottom: 0.5rem; }
+.content-sources a { text-decoration: underline; }

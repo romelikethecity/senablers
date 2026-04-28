@@ -265,11 +265,18 @@ def get_page_wrapper(title, description, canonical_path, body_content,
 }})();
 </script>'''
 
+    # Inject sources section on content pages (not homepage, about, privacy, terms, newsletter, 404)
+    _excluded = {"/", "/about/", "/privacy/", "/terms/", "/newsletter/", "/404.html"}
+    sources_html = ""
+    if canonical_path not in _excluded:
+        sources_html = get_sources_section()
+
     return f'''{head}
 <body{bc}>
 {nav}
 <main class="main-content">
 {body_content}
+{sources_html}
 </main>
 {footer}
 {inline_js}
@@ -443,6 +450,19 @@ def faq_html(qa_pairs):
     <h2>Frequently Asked Questions</h2>
     {items}
 </section>'''
+
+
+def get_sources_section():
+    """Return Sources & Methodology HTML block for content pages (E-E-A-T signal)."""
+    return '''<aside class="content-sources">
+    <h4>Sources &amp; Methodology</h4>
+    <ul>
+        <li>Salary and compensation data sourced from <strong>219+</strong> verified job postings, updated weekly</li>
+        <li>Employment projections from the <a href="https://www.bls.gov/ooh/sales/wholesale-and-manufacturing-sales-representatives.htm" target="_blank" rel="noopener">Bureau of Labor Statistics</a> Occupational Outlook Handbook</li>
+        <li>Tool adoption data derived from job description analysis across verified employer listings</li>
+        <li><a href="/salary/methodology/">Read our full methodology</a></li>
+    </ul>
+</aside>'''
 
 
 def newsletter_cta_html(context=""):
