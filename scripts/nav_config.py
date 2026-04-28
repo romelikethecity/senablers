@@ -65,6 +65,7 @@ NAV_ITEMS = [
             {"href": "/jobs/", "label": "Job Board"},
         ],
     },
+    {"href": "/about/", "label": "About"},
 ]
 
 FOOTER_COLUMNS = {
