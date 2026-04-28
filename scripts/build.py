@@ -778,12 +778,14 @@ def build_about_page():
         <p>Sales enablement is a $3B+ market with thousands of professionals, but no single source of truth for compensation, career paths, or honest tool reviews. We built SEnablers to fill that gap.</p>
 
         <h2>Who Runs This?</h2>
-        <p>SEnablers is built and maintained by <strong>Rome Thorndike</strong>. No venture funding, no vendor partnerships, no bias.</p>
+        <p>SEnablers is built and maintained by <strong>Rome Thorndike</strong>, VP of Revenue at Firmograph.ai. Throughout his 15+ year career in B2B sales and revenue leadership, Rome has both built and benefited from world-class sales enablement. He has rolled out MEDDICC at several companies, developed onboarding programs for new sellers, and built enablement content libraries for enterprise sales teams at Salesforce, Microsoft, Snapdocs (Sequoia-backed), and Datajoy (acquired by Databricks). He holds an MBA from UC Berkeley's Haas School of Business. He built SEnablers because sales enablement professionals are force multipliers for entire revenue organizations and deserve their own career intelligence.</p>
+        <p><a href="https://www.linkedin.com/in/romethorndike/" target="_blank" rel="noopener">LinkedIn</a></p>
         <p>Questions? Reach out at <a href="mailto:rome@getprovyx.com">rome@getprovyx.com</a>.</p>
     </div>
 </div>'''
 
-    extra_head = get_breadcrumb_schema(crumbs)
+    person_schema = """<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Rome Thorndike","url":"https://www.linkedin.com/in/romethorndike/","jobTitle":"VP of Revenue","worksFor":{"@type":"Organization","name":"Firmograph.ai"},"alumniOf":{"@type":"EducationalOrganization","name":"UC Berkeley Haas School of Business"}}</script>"""
+    extra_head = get_breadcrumb_schema(crumbs) + "\n" + person_schema
     page = get_page_wrapper(title=title, description=description,
                             canonical_path="/about/", body_content=body,
                             active_path="/about/", extra_head=extra_head)
