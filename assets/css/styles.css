@@ -153,7 +153,7 @@
 /* ---- Site Footer ---- */
 .site-footer {
     background: var(--se-bg-dark);
-    color: var(--se-text-inverse);
+    color: #F0F0F0;
     padding: var(--se-space-16) 0 var(--se-space-8);
 }
 
@@ -172,7 +172,7 @@
 .footer-column h4 {
     font-family: var(--se-font-heading);
     font-size: var(--se-text-sm);
-    color: var(--se-text-tertiary);
+    color: #9CA3AF;
     margin-bottom: var(--se-space-4);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -189,7 +189,7 @@
 }
 
 .footer-column a {
-    color: var(--se-text-inverse);
+    color: #F0F0F0;
     opacity: 0.8;
     text-decoration: none;
     font-size: var(--se-text-sm);
@@ -198,7 +198,7 @@
 
 .footer-column a:hover {
     opacity: 1;
-    color: var(--se-text-inverse);
+    color: #FFFFFF;
 }
 
 /* Footer newsletter */
