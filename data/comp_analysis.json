@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-30T03:13:54.243807",
-  "total_records": 204,
-  "records_with_salary": 142,
-  "disclosure_rate": 69.6,
+  "generated_at": "2026-04-30T05:54:04.705343",
+  "total_records": 196,
+  "records_with_salary": 138,
+  "disclosure_rate": 70.4,
   "salary_stats": {
     "min": 41600,
     "max": 352000,
     "median": 123000,
-    "avg": 125947,
-    "count_with_salary": 142
+    "avg": 126500,
+    "count_with_salary": 138
   },
   "by_seniority": {
     "Director": {
@@ -18,15 +18,15 @@
       "median": 170000
     },
     "Senior": {
-      "count": 41,
-      "min_base_avg": 127146,
-      "max_base_avg": 184396,
-      "median": 125000
+      "count": 40,
+      "min_base_avg": 127787,
+      "max_base_avg": 184474,
+      "median": 127500
     },
     "Mid": {
-      "count": 37,
-      "min_base_avg": 114825,
-      "max_base_avg": 152359,
+      "count": 35,
+      "min_base_avg": 114732,
+      "max_base_avg": 152890,
       "median": 112000
     },
     "VP": {
@@ -42,9 +42,9 @@
       "median": 98000
     },
     "Entry": {
-      "count": 17,
-      "min_base_avg": 84694,
-      "max_base_avg": 118464,
+      "count": 16,
+      "min_base_avg": 84175,
+      "max_base_avg": 115681,
       "median": 77100
     },
     "Head of": {
@@ -56,10 +56,10 @@
   },
   "by_metro": {
     "Unknown": {
-      "count": 74,
-      "min_base_avg": 120590,
-      "max_base_avg": 171683,
-      "median": 118750
+      "count": 70,
+      "min_base_avg": 121375,
+      "max_base_avg": 172488,
+      "median": 118766
     },
     "New York": {
       "count": 33,
@@ -100,15 +100,15 @@
   },
   "by_remote": {
     "onsite": {
-      "count": 108,
-      "min_base_avg": 128028,
-      "max_base_avg": 179970,
+      "count": 107,
+      "min_base_avg": 128276,
+      "max_base_avg": 179957,
       "median": 125000
     },
     "remote": {
-      "count": 34,
-      "min_base_avg": 119336,
-      "max_base_avg": 165515,
+      "count": 31,
+      "min_base_avg": 120373,
+      "max_base_avg": 167046,
       "median": 117100
     }
   },
