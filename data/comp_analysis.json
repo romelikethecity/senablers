@@ -1,169 +1,187 @@
 {
-  "generated_at": "2026-04-04T16:06:38.911229",
-  "total_records": 219,
-  "records_with_salary": 146,
-  "disclosure_rate": 66.7,
+  "generated_at": "2026-04-30T03:13:54.243807",
+  "total_records": 204,
+  "records_with_salary": 142,
+  "disclosure_rate": 69.6,
   "salary_stats": {
-    "min": 47800,
-    "max": 375000,
-    "median": 110000,
-    "avg": 127742,
-    "count_with_salary": 146
+    "min": 41600,
+    "max": 352000,
+    "median": 123000,
+    "avg": 125947,
+    "count_with_salary": 142
   },
   "by_seniority": {
-    "Senior": {
-      "count": 39,
-      "min_base_avg": 171494,
-      "max_base_avg": 244242,
-      "median": 155000
-    },
     "Director": {
-      "count": 23,
-      "min_base_avg": 148798,
-      "max_base_avg": 211119,
-      "median": 154500
-    },
-    "Entry": {
       "count": 17,
-      "min_base_avg": 82703,
-      "max_base_avg": 117957,
-      "median": 80000
+      "min_base_avg": 177083,
+      "max_base_avg": 234835,
+      "median": 170000
+    },
+    "Senior": {
+      "count": 41,
+      "min_base_avg": 127146,
+      "max_base_avg": 184396,
+      "median": 125000
     },
     "Mid": {
-      "count": 41,
-      "min_base_avg": 105405,
-      "max_base_avg": 148856,
-      "median": 100000
+      "count": 37,
+      "min_base_avg": 114825,
+      "max_base_avg": 152359,
+      "median": 112000
+    },
+    "VP": {
+      "count": 5,
+      "min_base_avg": 143395,
+      "max_base_avg": 215825,
+      "median": 127000
     },
     "Unknown": {
       "count": 21,
-      "min_base_avg": 101144,
-      "max_base_avg": 143654,
-      "median": 100603
+      "min_base_avg": 118488,
+      "max_base_avg": 177469,
+      "median": 98000
+    },
+    "Entry": {
+      "count": 17,
+      "min_base_avg": 84694,
+      "max_base_avg": 118464,
+      "median": 77100
+    },
+    "Head of": {
+      "count": 3,
+      "min_base_avg": 196933,
+      "max_base_avg": 263200,
+      "median": 170800
     }
   },
   "by_metro": {
     "Unknown": {
-      "count": 80,
-      "min_base_avg": 111768,
-      "max_base_avg": 161733,
-      "median": 100603
+      "count": 74,
+      "min_base_avg": 120590,
+      "max_base_avg": 171683,
+      "median": 118750
     },
     "New York": {
-      "count": 28,
-      "min_base_avg": 133039,
-      "max_base_avg": 183827,
-      "median": 120000
+      "count": 33,
+      "min_base_avg": 132279,
+      "max_base_avg": 182177,
+      "median": 125000
+    },
+    "Austin": {
+      "count": 3,
+      "min_base_avg": 137333,
+      "max_base_avg": 217666,
+      "median": 141000
     },
     "Los Angeles": {
-      "count": 14,
-      "min_base_avg": 142750,
-      "max_base_avg": 213552,
-      "median": 105261
+      "count": 10,
+      "min_base_avg": 114952,
+      "max_base_avg": 171021,
+      "median": 120000
+    },
+    "Chicago": {
+      "count": 4,
+      "min_base_avg": 126250,
+      "max_base_avg": 158750,
+      "median": 140000
+    },
+    "San Francisco": {
+      "count": 7,
+      "min_base_avg": 177700,
+      "max_base_avg": 214828,
+      "median": 216000
     },
     "Seattle": {
       "count": 7,
-      "min_base_avg": 160771,
-      "max_base_avg": 234566,
-      "median": 164000
-    },
-    "Boston": {
-      "count": 4,
-      "min_base_avg": 190675,
-      "max_base_avg": 260500,
-      "median": 193700
-    },
-    "San Francisco": {
-      "count": 5,
-      "min_base_avg": 174420,
-      "max_base_avg": 251080,
-      "median": 171200
+      "min_base_avg": 117800,
+      "max_base_avg": 177071,
+      "median": 118200
     }
   },
   "by_remote": {
-    "remote": {
-      "count": 21,
-      "min_base_avg": 109709,
-      "max_base_avg": 155414,
-      "median": 105700
-    },
     "onsite": {
-      "count": 125,
-      "min_base_avg": 130772,
-      "max_base_avg": 187045,
-      "median": 110000
+      "count": 108,
+      "min_base_avg": 128028,
+      "max_base_avg": 179970,
+      "median": 125000
+    },
+    "remote": {
+      "count": 34,
+      "min_base_avg": 119336,
+      "max_base_avg": 165515,
+      "median": 117100
     }
   },
   "top_paying_roles": [
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Senior Engineering Excellence & AI Enablement Director",
+      "company": "Imprivata",
+      "salary_min": 309000.0,
+      "salary_max": 352000.0,
+      "seniority": "Director"
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Senior Director or Executive Director, Strategic Field Enablement",
+      "company": "BeOne Medicines",
+      "salary_min": 207800.0,
+      "salary_max": 347400.0,
+      "seniority": "Director"
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "US & Canada AI Enablement Leader",
+      "company": "Mercer",
+      "salary_min": 160500.0,
+      "salary_max": 321000.0,
+      "seniority": ""
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Technical Enablement Lead, Claude CodeNew",
+      "company": "Anthropic",
+      "salary_min": 270000.0,
+      "salary_max": 310000.0,
+      "seniority": ""
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Sr Director, Commercial Operations & Sales Enablement",
+      "company": "MiniMed",
+      "salary_min": 200800.0,
+      "salary_max": 301200.0,
+      "seniority": ""
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "HR AI Enablement Leader",
+      "company": "GE Aerospace",
+      "salary_min": 200000.0,
+      "salary_max": 300000.0,
+      "seniority": ""
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Head of Partner Enablement, AWS Cloud",
+      "company": "OpenAI",
+      "salary_min": 270000.0,
+      "salary_max": 300000.0,
+      "seniority": "Head of"
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Go-To-Market Enablement Director",
+      "company": "CaptivateIQ",
+      "salary_min": 190000.0,
+      "salary_max": 300000.0,
+      "seniority": "Director"
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Head of Sales Enablement, Americas",
+      "company": "AXA",
+      "salary_min": 170800.0,
+      "salary_max": 284600.0,
+      "seniority": "Head of"
     },
     {
-      "title": "Senior Director, Sales Effectiveness & Rewards",
-      "company": "WTW",
-      "salary_min": 250000.0,
-      "salary_max": 375000.0,
-      "seniority": "Senior"
+      "title": "Director, GTM Enablement",
+      "company": "Zillow",
+      "salary_min": 166400.0,
+      "salary_max": 279800.0,
+      "seniority": "Director"
     }
   ]
 }
