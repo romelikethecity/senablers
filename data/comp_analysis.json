@@ -1,50 +1,44 @@
 {
-  "generated_at": "2026-04-30T05:54:04.705343",
-  "total_records": 196,
-  "records_with_salary": 138,
-  "disclosure_rate": 70.4,
+  "generated_at": "2026-05-04T12:17:26.004491",
+  "total_records": 227,
+  "records_with_salary": 149,
+  "disclosure_rate": 65.6,
   "salary_stats": {
     "min": 41600,
-    "max": 352000,
-    "median": 123000,
-    "avg": 126500,
-    "count_with_salary": 138
+    "max": 379500,
+    "median": 124000,
+    "avg": 126551,
+    "count_with_salary": 149
   },
   "by_seniority": {
-    "Director": {
-      "count": 17,
-      "min_base_avg": 177083,
-      "max_base_avg": 234835,
-      "median": 170000
-    },
     "Senior": {
-      "count": 40,
-      "min_base_avg": 127787,
-      "max_base_avg": 184474,
-      "median": 127500
+      "count": 42,
+      "min_base_avg": 138042,
+      "max_base_avg": 196425,
+      "median": 139000
     },
     "Mid": {
-      "count": 35,
-      "min_base_avg": 114732,
-      "max_base_avg": 152890,
+      "count": 62,
+      "min_base_avg": 115624,
+      "max_base_avg": 165402,
       "median": 112000
     },
     "VP": {
       "count": 5,
-      "min_base_avg": 143395,
-      "max_base_avg": 215825,
-      "median": 127000
+      "min_base_avg": 152150,
+      "max_base_avg": 211000,
+      "median": 145000
     },
-    "Unknown": {
-      "count": 21,
-      "min_base_avg": 118488,
-      "max_base_avg": 177469,
-      "median": 98000
+    "Director": {
+      "count": 15,
+      "min_base_avg": 174378,
+      "max_base_avg": 237246,
+      "median": 168727
     },
     "Entry": {
-      "count": 16,
-      "min_base_avg": 84175,
-      "max_base_avg": 115681,
+      "count": 21,
+      "min_base_avg": 83128,
+      "max_base_avg": 118679,
       "median": 77100
     },
     "Head of": {
@@ -55,64 +49,72 @@
     }
   },
   "by_metro": {
-    "Unknown": {
-      "count": 70,
-      "min_base_avg": 121375,
-      "max_base_avg": 172488,
-      "median": 118766
-    },
-    "New York": {
-      "count": 33,
-      "min_base_avg": 132279,
-      "max_base_avg": 182177,
-      "median": 125000
-    },
-    "Austin": {
-      "count": 3,
-      "min_base_avg": 137333,
-      "max_base_avg": 217666,
-      "median": 141000
-    },
     "Los Angeles": {
-      "count": 10,
-      "min_base_avg": 114952,
-      "max_base_avg": 171021,
+      "count": 18,
+      "min_base_avg": 131031,
+      "max_base_avg": 203382,
+      "median": 124000
+    },
+    "Unknown": {
+      "count": 80,
+      "min_base_avg": 120290,
+      "max_base_avg": 170079,
       "median": 120000
     },
+    "New York": {
+      "count": 31,
+      "min_base_avg": 132605,
+      "max_base_avg": 182289,
+      "median": 130000
+    },
     "Chicago": {
-      "count": 4,
-      "min_base_avg": 126250,
-      "max_base_avg": 158750,
+      "count": 3,
+      "min_base_avg": 135000,
+      "max_base_avg": 161666,
       "median": 140000
     },
     "San Francisco": {
-      "count": 7,
-      "min_base_avg": 177700,
-      "max_base_avg": 214828,
+      "count": 5,
+      "min_base_avg": 187860,
+      "max_base_avg": 223660,
       "median": 216000
     },
     "Seattle": {
       "count": 7,
-      "min_base_avg": 117800,
-      "max_base_avg": 177071,
-      "median": 118200
+      "min_base_avg": 109671,
+      "max_base_avg": 174085,
+      "median": 110300
     }
   },
   "by_remote": {
     "onsite": {
-      "count": 107,
-      "min_base_avg": 128276,
-      "max_base_avg": 179957,
+      "count": 115,
+      "min_base_avg": 127491,
+      "max_base_avg": 181860,
       "median": 125000
     },
     "remote": {
-      "count": 31,
-      "min_base_avg": 120373,
-      "max_base_avg": 167046,
-      "median": 117100
+      "count": 34,
+      "min_base_avg": 123371,
+      "max_base_avg": 169161,
+      "median": 123000
     }
   },
   "top_paying_roles": [
+    {
+      "title": "Principal Partner Enablement Product Manager, AI Infrastructure",
+      "company": "NVIDIA",
+      "salary_min": 240000.0,
+      "salary_max": 379500.0,
+      "seniority": "Senior"
+    },
+    {
+      "title": "Partner Enablement Product Manager, Storage Platform",
+      "company": "NVIDIA",
+      "salary_min": 208000.0,
+      "salary_max": 379500.0,
+      "seniority": "Mid"
+    },
     {
       "title": "Senior Engineering Excellence & AI Enablement Director",
       "company": "Imprivata",
@@ -132,28 +134,21 @@
       "company": "Mercer",
       "salary_min": 160500.0,
       "salary_max": 321000.0,
-      "seniority": ""
-    },
-    {
-      "title": "Technical Enablement Lead, Claude CodeNew",
-      "company": "Anthropic",
-      "salary_min": 270000.0,
-      "salary_max": 310000.0,
-      "seniority": ""
+      "seniority": "Mid"
     },
     {
       "title": "Sr Director, Commercial Operations & Sales Enablement",
       "company": "MiniMed",
       "salary_min": 200800.0,
       "salary_max": 301200.0,
-      "seniority": ""
+      "seniority": "Mid"
     },
     {
       "title": "HR AI Enablement Leader",
       "company": "GE Aerospace",
       "salary_min": 200000.0,
       "salary_max": 300000.0,
-      "seniority": ""
+      "seniority": "Mid"
     },
     {
       "title": "Head of Partner Enablement, AWS Cloud",
@@ -175,13 +170,6 @@
       "salary_min": 170800.0,
       "salary_max": 284600.0,
       "seniority": "Head of"
-    },
-    {
-      "title": "Director, GTM Enablement",
-      "company": "Zillow",
-      "salary_min": 166400.0,
-      "salary_max": 279800.0,
-      "seniority": "Director"
     }
   ]
 }

@@ -1,109 +1,110 @@
 {
-  "date": "April 30, 2026",
-  "total_jobs": 196,
+  "date": "May 04, 2026",
+  "total_jobs": 227,
   "tools": {
-    "Salesforce": 56,
-    "Gong": 23,
-    "Highspot": 18,
-    "Seismic": 14,
-    "Hubspot": 12,
-    "Claude": 12,
+    "Salesforce": 62,
+    "Gong": 30,
+    "Highspot": 23,
+    "Seismic": 17,
+    "Hubspot": 14,
+    "Claude": 13,
     "Aws": 10,
     "Power Bi": 8,
     "Salesloft": 6,
-    "Showpad": 5,
+    "Lessonly": 6,
+    "Lessonly Training": 6,
+    "Showpad": 6,
+    "Prompt Engineering": 5,
     "Clari": 5,
-    "Prompt Engineering": 4,
     "Openai": 4,
-    "Linkedin Sales Navigator": 4,
-    "Gemini": 4,
+    "Azure": 4,
+    "Chorus": 4,
     "G2": 4,
-    "Hubspot Marketing": 3,
-    "Anthropic": 3,
-    "Azure": 3,
     "Gcp": 3,
-    "Lessonly": 3,
-    "Lessonly Training": 3,
+    "Zoho Crm": 3,
+    "Apollo": 3,
+    "Linkedin Sales Navigator": 3,
+    "Tableau": 3,
+    "Gemini": 3,
     "Zoominfo": 3,
-    "Allego": 2,
-    "Allego Training": 2,
-    "Zoho Crm": 2,
-    "Chorus": 2,
-    "Apollo": 2,
+    "Gainsight": 3,
     "Clay": 2,
-    "Tableau": 2,
     "Loom": 2,
     "Captivateiq": 2,
     "Instantly": 2,
     "Cognigy": 2,
     "Qwilr": 2,
-    "Intercom": 1,
-    "Outreach Io": 1,
-    "Rag": 1,
+    "Mindtickle": 2,
+    "Mindtickle Training": 2,
+    "Pendo": 2,
+    "Pendo Plg": 2,
+    "Hubspot Marketing": 2,
+    "Spekit": 2,
+    "Zapier": 2,
+    "Vidyard": 2,
+    "Calendly": 2,
+    "Marketo": 2,
+    "Catalyst": 2,
     "Lemlist": 1,
     "Scratchpad": 1,
-    "Demandbase": 1,
-    "Reveal": 1,
     "Brainshark": 1,
     "Brainshark Training": 1,
     "Orum": 1,
-    "Warmly": 1,
     "Klue": 1,
-    "Dynamics 365": 1,
-    "Planhat": 1,
-    "6Sense": 1
+    "Planhat": 1
   },
-  "deal_size": {
-    "Enterprise Deal": 14,
-    "Seven Figure": 5,
-    "Transactional": 3
+  "motion": {
+    "Channel": 42,
+    "Direct": 13,
+    "Abm": 3,
+    "Inside": 3,
+    "Outbound": 1,
+    "Plg": 1
   },
   "geo_focus": {
-    "Global": 96,
-    "North America": 61,
-    "Apac": 14,
+    "Global": 106,
+    "North America": 64,
+    "Apac": 11,
     "Emea": 10,
-    "Latam": 3
+    "Latam": 2
+  },
+  "team_structure": {
+    "Build Team": 133,
+    "Reports Cro": 31,
+    "First Hire": 10,
+    "Reports Vp": 4
   },
   "hiring_signals": {
-    "Growth Hire": 132,
-    "Turnaround": 58,
+    "Growth Hire": 150,
+    "Turnaround": 79,
     "Immediate": 20
   },
   "comp_signals": {
-    "Equity": 162,
-    "Ote Mentioned": 7,
-    "Uncapped": 1
-  },
-  "motion": {
-    "Channel": 34,
-    "Direct": 12,
-    "Inside": 4,
-    "Abm": 2,
-    "Outbound": 1
-  },
-  "team_structure": {
-    "Build Team": 115,
-    "Reports Cro": 27,
-    "First Hire": 8,
-    "Reports Vp": 3,
-    "Player Coach": 1
+    "Equity": 189,
+    "Ote Mentioned": 10,
+    "Uncapped": 4
   },
   "segment": {
-    "Enterprise": 73,
-    "Smb": 11,
-    "Fortune 500": 7
-  },
-  "sales_cycle": {
-    "Long": 18,
-    "Short": 2
+    "Enterprise": 77,
+    "Fortune 500": 13,
+    "Smb": 12
   },
   "methodology": {
     "Meddic": 15,
-    "Value Selling": 10,
+    "Value Selling": 11,
     "Solution Selling": 8,
     "Miller Heiman": 5,
     "Sandler": 4,
-    "Challenger": 1
+    "Challenger": 3
+  },
+  "deal_size": {
+    "Enterprise Deal": 14,
+    "Seven Figure": 6,
+    "Transactional": 3,
+    "Mid Deal": 2
+  },
+  "sales_cycle": {
+    "Long": 17,
+    "Short": 2
   }
 }
